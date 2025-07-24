@@ -6,11 +6,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
+M.S. Mechanical Engineering, University of Michigan
+B.S. Mechanical Engineering with Minor in Computer Science, University of Texas at Austin
 
-I am a Master’s student in Mechanical Engineering at the University of Michigan, advised by Prof. Daniel Bruder and Prof. Robert Gregg. My research focuses on soft robotics, wearable prostheses, and bio-inspired actuation.
+Hello! I am a graduate researcher in mechanical engineering at the University of Michigan with interests in the design, modeling, and control of soft robotics, compliant actuation and locomotion, and medical soft robotics. I approach soft robotics as an intrinsically multidisciplinary field, where actuation, morphology, sensing and control must be developed simultaneously. Further, I am motivated by the challenge of integrating structural design with embodied intelligence, and control-theoretic principles into unified, deployable systems that are capable of achieving robustness in uncertain and unstructured environments.
 
-Currently, I design and analyze modular, grid-based soft robotic actuators in the FREE Lab, and investigate time-varying impedance control for prosthetic limbs in the Locomotor Control Systems Lab. I also previously worked on thermally adaptive soft actuators inspired by Saharan silver ants with Prof. Talia Moore.
+Currently, I am working in two research groups at the University of Michigan. In the FREE lab, I am being advised by Prof. Daniel Bruder, where I am helping to design, model, and fabricate grid-based soft robotic actuators. In the Locomotor Control Systems Lab, I am being advised by Prof. Robert Gregg, where I am investigating behavioral properties of time-varying impedance control for powered prosthetic limbs.
 
-Before graduate school, I earned a B.S. in Mechanical Engineering with a Computer Science minor from the University of Texas at Austin. I’ve worked as a project engineer designing mission-critical systems for data centers, and as an R&D intern at Becton Dickinson, where I proposed a new mechanical testing method currently under review for adoption.
+Previously, I have conducted research in the EMBiR Lab on passive thermal regulation in soft actuators structurally inspired by Saharan silver ants and have contributed to materials research involving bio-based fibrous composites and fabric sensing. Additionally, my academic research is complemented by industry research at Becton Dickinson, where I worked on mechanical test method development for a specific medical device.
 
-My long-term goal is to develop robust, adaptable systems that merge control theory with compliant design to enhance human mobility and interaction.
+Moreover, my long-term research goal is to advance the integration of soft robotic intelligent design, modeling, and control, leading to the widespread adoption of soft robots in our daily life.
+
+Outside of school and research, I train for marathons in my spare time.
