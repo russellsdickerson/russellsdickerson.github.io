@@ -23,7 +23,7 @@ Research Experience
 *Graduate Student Researcher*<span style="float:right; font-weight:normal"><em>Apr 2025 – Present</em></span>  
 *Advisor: Prof. Daniel Bruder*
   - Designed, modeled, and fabricated modular, grid-based, soft robotic actuators for compliant systems, investigating their
- mechanical behavior and applicability in various compliant actuation systems.
+ mechanical behavior, manufacturability, and applicability in various compliant actuation systems.
 
 **Locomotor Control Systems Lab, University of Michigan**  
 *Graduate Student Researcher*<span style="float:right; font-weight:normal"><em>Apr 2025 – Present</em></span>  
@@ -51,6 +51,12 @@ Research Experience
 *Advisor: Prof. Jonathan Y. Chen*  
   * Manufactured bio-based fiber and fibrous composite materials that supported research into fabric sensing applications.
 
+Publications
+======
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
 Industry Experience
 ======
 **WTA, Inc.**  
@@ -68,12 +74,6 @@ Skills
 * **Prototyping**: 3D Printing, Laser Cutting, Soldering, Mold Casting  
 * **Data/Testing**: MySQL, Excel, Minitab, Design of Experiments  
 * **Communication**: Scientific Writing, Poster Design, Team Collaboration
-
-Publications
-======
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
 
 <!--Talks
 ======
