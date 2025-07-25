@@ -11,9 +11,11 @@ redirect_from:
 
 Education
 ======
-* M.S. Mechanical Engineering, University of Michigan, Ann Arbor, MI (May 2025)  
-* B.S. Mechanical Engineering, University of Texas at Austin (May 2020)  
-  * Minor: Computer Science
+**University of Michigan, Ann Arbor, MI**
+*M.S. Mechanical Engineering*<span style="float:right; font-weight:normal"><em>May 2025</em></span>  
+**University of Texas at Austin**
+*B.S. Mechanical Engineering*<span style="float:right; font-weight:normal"><em>May 2020</em></span>  
+*Minor: Computer Science*
 
 Research Experience
 ======
@@ -26,30 +28,37 @@ Research Experience
 **Locomotor Control Systems Lab, University of Michigan**  
 *Graduate Student Researcher*<span style="float:right; font-weight:normal"><em>Apr 2025 – Present</em></span>  
 *Advisor: Prof. Robert Gregg*  
-  * Investigated stability of time-varying impedance control for robotic prostheses using Lyapunov-based analysis.  
+  * Investigated stability of time-varying impedance control for robotic prostheses using Lyapunov-based analysis.
   * Modeled a 3-DOF powered prosthetic limb system and provided theoretical safety guarantees, supporting the
  development of robust controllers for wearable robotics in dynamic environments.
+
+**Product Development Engineer I / R&D Intern, Becton Dickinson (Jun 2024 – Present)**  
+  * Proposed and validated a novel mechanical, destructive test method for a BD product line, reducing sample sizes by 33%
+ and improving testing efficiency; results presented at an R&D symposium are under consideration for official adoption.
+  * Conducted an extensive literature review on the current state of blood processing.
+  * Authored technical reports evaluating product feasibility and stability, incorporating statistical analysis of mechanical test
+ data to identify trends and ensure compliance with specifications.
 
 **EMBiR Lab, University of Michigan**  
 *Graduate Student Researcher*<span style="float:right; font-weight:normal"><em>Jan 2024 – May 2024</em></span>  
 *Advisor: Prof. Talia Y. Moore*  
-  * Developed a Saharan silver ant–inspired soft actuator that improved passive thermal regulation by 15°F under IR exposure.
+  * Designed and fabricated a Saharan silver ant–inspired, soft robotic actuator that possesses wave scattering properties and
+ demonstrates a 15°F improved passive thermal regulation compared to the control under IR exposure.
 
 **Renewable Fiber & Composite Lab, University of Texas at Austin**  
 *Undergraduate Research Assistant*<span style="float:right; font-weight:normal"><em>Apr 2019 – Aug 2019</em></span>  
 *Advisor: Prof. Jonathan Y. Chen*  
-  * Fabricated bio-based fiber composites and maintained heavy textile manufacturing equipment.
+  * Manufactured bio-based fiber and fibrous composite materials that supported research into fabric sensing applications.
 
 Industry Experience
 ======
-**Product Development Engineer I / R&D Intern, Becton Dickinson (Jun 2024 – Present)**  
-  * Proposed a novel mechanical test method that reduced sample sizes by 33% and improved efficiency.  
-  * Analyzed test data, authored feasibility reports, and presented findings at an R&D symposium.
+**WTA, Inc.**  
+*Project Engineer*<span style="float:right; font-weight:normal"><em>Apr 2021 – Jul 2023</em></span>  
+  * Led multi-million-dollar mechanical/electrical design projects of mission-critical systems for Verizon and Baylor Scott & White data centers, improving operational stability, achieving a 33% reduction in project lead times.
 
-**Project Engineer, WTA, Inc. (Apr 2021 – Jul 2023)**  
-  * Led engineering projects in infrastructure system design.
-
-**Creative Engineering and Design Intern, TroubleMaker (Jun 2018 – Aug 2018)**
+**TroubleMaker (Jun 2018 – Aug 2018)**
+*Creative Engineering and Design Intern*
+  * Designed an automated, multi-tank chemical bath application system with integrated motors and pumps, significantly improving efficiency for film processing.
 
 Skills
 ======
