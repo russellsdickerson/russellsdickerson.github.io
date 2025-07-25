@@ -17,9 +17,11 @@ Education
 
 Research Experience
 ======
-* Graduate Student Researcher, FREE Lab, University of Michigan (Apr 2025 – Present)  
-  * Advisor: Prof. Daniel Bruder  
-  * Designed, modeled, and fabricated modular, grid-based soft robotic actuators to explore compliant actuation systems.
+### FREE Lab, University of Michigan — *Graduate Student Researcher*  
+  **Apr 2025 – Present**  
+  *Advisor: Prof. Daniel Bruder*
+  * Designed, modeled, and fabricated modular, grid-based, soft robotic actuators for compliant systems, investigating their
+ mechanical behavior and applicability in various compliant actuation systems
 
 * Graduate Student Researcher, Locomotor Control Systems Lab, University of Michigan (Apr 2025 – Present)  
   * Advisor: Prof. Robert Gregg  
