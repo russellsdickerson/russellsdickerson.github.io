@@ -32,7 +32,8 @@ Research Experience
   * Modeled a 3-DOF powered prosthetic limb system and provided theoretical safety guarantees, supporting the
  development of robust controllers for wearable robotics in dynamic environments.
 
-**Product Development Engineer I / R&D Intern, Becton Dickinson (Jun 2024 – Present)**  
+**Becton Dickinson**  
+*Product Development Engineer I / R&D Intern*<span style="float:right; font-weight:normal"><em>Jun 2024 – Present</em></span>
   * Proposed and validated a novel mechanical, destructive test method for a BD product line, reducing sample sizes by 33%
  and improving testing efficiency; results presented at an R&D symposium are under consideration for official adoption.
   * Conducted an extensive literature review on the current state of blood processing.
