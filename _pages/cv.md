@@ -19,7 +19,7 @@ Research Experience
 ======
 ### FREE Lab, University of Michigan
   *Graduate Student Researcher* <em><span style="float:right">Apr 2025 – Present</span></em>  
-  *Advisor: Prof. Daniel Bruder*
+  <em>Advisor: Prof. Daniel Bruder</em>
   * Designed, modeled, and fabricated modular, grid-based, soft robotic actuators for compliant systems, investigating their
  mechanical behavior and applicability in various compliant actuation systems
 
