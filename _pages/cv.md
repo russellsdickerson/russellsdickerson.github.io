@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-**University of Michigan, Ann Arbor, MI**
+**University of Michigan, Ann Arbor, MI**  
 *M.S. Mechanical Engineering*<span style="float:right; font-weight:normal"><em>May 2025</em></span>  
-**University of Texas at Austin**
+**University of Texas at Austin**  
 *B.S. Mechanical Engineering*<span style="float:right; font-weight:normal"><em>May 2020</em></span>  
 *Minor: Computer Science*
 
