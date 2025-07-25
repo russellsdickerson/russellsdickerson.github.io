@@ -56,7 +56,7 @@ Industry Experience
 *Project Engineer*<span style="float:right; font-weight:normal"><em>Apr 2021 – Jul 2023</em></span>  
   * Led multi-million-dollar mechanical/electrical design projects of mission-critical systems for Verizon and Baylor Scott & White data centers, improving operational stability, achieving a 33% reduction in project lead times.
 
-**TroubleMaker**
+**TroubleMaker**  
 *Creative Engineering and Design Intern*<span style="float:right; font-weight:normal"><em>Jun 2018 – Aug 2018</em></span>  
   * Designed an automated, multi-tank chemical bath application system with integrated motors and pumps, significantly improving efficiency for film processing.
 
