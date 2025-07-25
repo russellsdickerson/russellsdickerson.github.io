@@ -75,7 +75,7 @@ Publications
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
-Talks
+<!--Talks
 ======
 <ul>{% for post in site.talks reversed %}
   {% include archive-single-talk-cv.html %}
@@ -89,4 +89,4 @@ Teaching
 
 Service and Leadership
 ======
-* Collaborated across research and industry teams
+* Collaborated across research and industry teams-->
