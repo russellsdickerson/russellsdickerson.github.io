@@ -42,7 +42,7 @@ A MATLAB-based simulation was developed to evaluate how varying transmission rat
 <div style="text-align: center;">
     <img src="/images/ME_2.jpg" alt="" style="max-width:100%; height:auto; width:75%;">
 </div>
-<br/>
+
 
 We also analytically derived the minimum turning radius by geometrically modeling the chassis and applying a maximum steering angle of 45°. This confirmed that the custom steering design met maneuverability targets for the constrained track layout.
 
