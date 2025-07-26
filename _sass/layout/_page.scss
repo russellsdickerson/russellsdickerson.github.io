@@ -399,17 +399,3 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
-
-.two_image_row {
-  display: flex;
-  gap: 1rem;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 1rem 0;
-}
-
-.two_image_row img {
-  width: 48%;
-  height: auto;
-  border-radius: 4px;
-}
