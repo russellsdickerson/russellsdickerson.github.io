@@ -1,6 +1,6 @@
 ---
 title: "Embedded Pressure Sensing for Animal Bite Force Measurement"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/DogBiteXSection.png' alt='Dog bite sensor cross-section' style='max-width:100%; height:auto; width:800px;'>"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/DogBiteXSection.png' alt='mage of Dog Bite Cross-section' style='max-width:100%; height:auto; width:1200px;'>"
 collection: portfolio
 ---
 
