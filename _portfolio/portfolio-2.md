@@ -28,15 +28,10 @@ A custom rack-and-pinion mechanism was developed to enable active front-wheel st
 
 To ensure structural and dynamic performance, we performed a series of simulations and analytical calculations. FEA in SolidWorks was used to determine the car’s stiffness by measuring force-displacement relationships, which then informed our calculation of impact forces during collision scenarios using \( F = v \sqrt{mk} \). These modeling efforts verified that the structure could withstand expected loading scenarios during operation and crash events.
 
- <div class="row">
-  <div class="column">
+<div class="two_image_row">
     <img src='/images/wheel_spin.gif' alt='wheel_spin' style='max-width:100%; height:auto; width:450px;'>
-  </div>
-  <div class="column">
     <img src='/images/ME_3.jpg' alt='' style='max-width:100%; height:auto; width:450px;'>
-  </div>
-</div> 
-
+</div>
 
 <img src='/images/ME_1.jpg' alt='' style='max-width:100%; height:auto; width:450px;'>
 <img src='/images/ME_2.jpg' alt='' style='max-width:100%; height:auto; width:450px;'>
