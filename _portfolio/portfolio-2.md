@@ -6,7 +6,7 @@ collection: portfolio
 <div style="text-align: center;">
     <img src="/images/RC_Car.jpg" alt="racecar_design" style="max-width:100%; height:auto; width:90%; justify-content: center;">
 </div>
-<br/>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 1: Completed Model of Racecar Design</p>
 
 The following sections detail the thought processes underlying the design, modeling, and fabrication of a remote-controlled racecar for a competition I participated in. Overall, the design prioritized achieving the following goals: maximizing speed and acceleration, reducing drag, maintaining durability, capitalizing on modular parts, and protecting internal components. In turn, these goals informed design decisions throughout the engineering process.
 
@@ -16,10 +16,10 @@ The following sections detail the thought processes underlying the design, model
 
 The main chassis was printed using ABS thermoplastic on an FDM printer. This method was selected due to its combination of high customizablity, and moderate strength-to-weight ratio. The structure emulated traditional R/C cars to allow the use of known aerodynamic coefficients while optimizing internal component fit. Finite Element Analysis conducted in SolidWorks demonstrated that the structure was durable, with the only semi-fragile features being the steering linkage holders located at the front wheels. In order to be certain of the integrity of the design and manufacturing method, the car’s stiffness was determined by measuring force-displacement relationships, which then informed our calculation of impact forces during collision scenarios. These modeling efforts verified that the structure could withstand expected loading scenarios during operation and crash events.
 
-<figure style="display: flex; flex-direction: column; align-items: center; text-align: center; margin: 1rem 0;">
+<div style="text-align: center;">
   <img src="/images/ME_1.jpg" alt="" style="max-width:100%; height:auto; width:75%;">
-<figcaption style="margin-top: 0.5rem; font-size: 0.9em; color: #888;">Figure 1: Impact Deflection Analysis of the Chassis</figcaption>
-</figure>
+</div>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 2: Chassis Impact Deflection Analysis</p>
 
 ### Drivetrain
 
@@ -33,25 +33,25 @@ A rack-and-pinion mechanism was developed to enable active front-wheel steering.
     <img src="/images/wheel_spin.gif" alt="wheel_spin" style="max-width: 100%; width: 45%; height:auto;">
     <img src="/images/wheel_turn.gif" alt="ME_3" style="max-width: 100%; width: 45%; height:auto;">
 </div>
-<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 2: Demonstration of Rear-Wheel Spin (left) and Steering Angle (right)</p>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 3: Demonstration of Rear-Wheel Spin (left) and Steering Angle (right)</p>
 
 ## Optimization
 
 A MATLAB simulation was developed to evaluate how varying transmission ratios would impact car velocity and torque across a range of values. The simulation incorporated aerodynamic drag, weight, frictional losses, and motor torque-speed curves. The final transmission ratio of 0.39 was within the acceptable operational range (≥ 0.2), resulting in an estimated maximum velocity near 12 m/s. Additionally, a 3D surface plot was generated to visualize tradeoffs between torque, speed, and gear ratio, guiding system-level design decisions.
 
-<figure style="display: flex; flex-direction: column; align-items: center; text-align: center; margin: 1rem 0;">
+<div style="text-align: center;">
     <img src="/images/ME_2.jpg" alt="" style="max-width:100%; height:auto; width:75%;">
-<figcaption style="margin-top: 0.5rem; font-size: 0.9em; color: #888;">Figure 3:</figcaption>
-</figure>
+</div>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 4: Torque vs. Speed vs. Transmission Ration Optimization Plot</p>
 
 ## Manufacturing
 
-The chassis,, wheels, steering apparatus, and roll cage were additively manufactured, while the metal shafts, pins, and bearings were manually machined. The design originally incorporated oil-embedded sleeve bearings. However due to time constraints, custom bearings were machined to match the 3D printed wheel tolerances. These bearings enabled free rotation in the front wheels and secure mounting on the rear driveshaft. Key challenges included low-resolution 3D printers, infill calibration, and strength degradation due to print orientation.
+The chassis, wheels, steering apparatus, and roll cage were additively manufactured, while the metal shafts, pins, and bearings were manually machined. The design originally incorporated oil-embedded sleeve bearings. However due to time constraints, custom bearings were machined to match the 3D printed wheel tolerances. These bearings enabled free rotation in the front wheels and secure mounting on the rear driveshaft. Key challenges included low-resolution 3D printers, infill calibration, and strength degradation due to print orientation.
 
-<figure style="display: flex; flex-direction: column; align-items: center; text-align: center; margin: 1rem 0;">
+<div style="text-align: center;">
     <img src="/images/ME_4.jpg" alt="" style="max-width:100%; height:auto; width:75%;">
-<figcaption style="margin-top: 0.5rem; font-size: 0.9em; color: #888;">Figure 4:</figcaption>
-</figure>
+</div>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 5: Racecar Design Assembly</p>
 
 ## Performance
 
