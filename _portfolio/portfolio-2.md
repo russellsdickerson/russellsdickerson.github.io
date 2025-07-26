@@ -20,7 +20,6 @@ The main chassis was printed using ABS thermoplastic on an FDM printer. This met
   <img src="/images/ME_1.jpg" alt="" style="max-width:100%; height:auto; width:75%;">
 <figcaption style="margin-top: 0.5rem; font-size: 0.9em; color: #888;">Figure 1: Impact Deflection Analysis of the Chassis</figcaption>
 </figure>
-<br/>
 
 ### Drivetrain
 
@@ -34,23 +33,25 @@ A rack-and-pinion mechanism was developed to enable active front-wheel steering.
     <img src="/images/wheel_spin.gif" alt="wheel_spin" style="max-width: 100%; width: 45%; height:auto;">
     <img src="/images/wheel_turn.gif" alt="ME_3" style="max-width: 100%; width: 45%; height:auto;">
 </div>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 2: Demonstration of Rear-Wheel Spin (left) and Steering Angle (right)</p>
 
 ## Optimization
 
 A MATLAB simulation was developed to evaluate how varying transmission ratios would impact car velocity and torque across a range of values. The simulation incorporated aerodynamic drag, weight, frictional losses, and motor torque-speed curves. The final transmission ratio of 0.39 was within the acceptable operational range (≥ 0.2), resulting in an estimated maximum velocity near 12 m/s. Additionally, a 3D surface plot was generated to visualize tradeoffs between torque, speed, and gear ratio, guiding system-level design decisions.
 
-<div style="text-align: center;">
+<figure style="display: flex; flex-direction: column; align-items: center; text-align: center; margin: 1rem 0;">
     <img src="/images/ME_2.jpg" alt="" style="max-width:100%; height:auto; width:75%;">
-</div>
-<br/>
+<figcaption style="margin-top: 0.5rem; font-size: 0.9em; color: #888;">Figure 3:</figcaption>
+</figure>
 
 ## Manufacturing
 
 The chassis,, wheels, steering apparatus, and roll cage were additively manufactured, while the metal shafts, pins, and bearings were manually machined. The design originally incorporated oil-embedded sleeve bearings. However due to time constraints, custom bearings were machined to match the 3D printed wheel tolerances. These bearings enabled free rotation in the front wheels and secure mounting on the rear driveshaft. Key challenges included low-resolution 3D printers, infill calibration, and strength degradation due to print orientation.
 
-<div style="text-align: center;">
-    <img src="/images/ME_4.jpg" alt="" style="max-width:100%; height:auto; width:75%; justify-content: center;">
-</div>
+<figure style="display: flex; flex-direction: column; align-items: center; text-align: center; margin: 1rem 0;">
+    <img src="/images/ME_4.jpg" alt="" style="max-width:100%; height:auto; width:75%;">
+<figcaption style="margin-top: 0.5rem; font-size: 0.9em; color: #888;">Figure 4:</figcaption>
+</figure>
 
 ## Performance
 
