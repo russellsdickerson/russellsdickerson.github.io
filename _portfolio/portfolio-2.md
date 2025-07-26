@@ -1,6 +1,6 @@
 ---
 title: "Electric Car"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/RC_Car.jpg' style='width:960px;height:540px;'>"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/RC_Car.jpg' style=max-width:100%; height:auto; width:960px;>"
 collection: portfolio
 ---
 
