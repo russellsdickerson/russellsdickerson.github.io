@@ -16,9 +16,9 @@ The following sections detail the thought processes underlying the design, model
 
 The main chassis was printed using ABS thermoplastic on an FDM printer. This method was selected due to its combination of high customizablity, and moderate strength-to-weight ratio. The structure emulated traditional R/C cars to allow the use of known aerodynamic coefficients while optimizing internal component fit. Finite Element Analysis conducted in SolidWorks demonstrated that the structure was durable, with the only semi-fragile features being the steering linkage holders located at the front wheels. In order to be certain of the integrity of the design and manufacturing method, the car’s stiffness was determined by measuring force-displacement relationships, which then informed our calculation of impact forces during collision scenarios. These modeling efforts verified that the structure could withstand expected loading scenarios during operation and crash events.
 
-<figure style="text-align: center;">
+<figure style="display: flex; flex-direction: column; align-items: center; text-align: center; margin: 1rem 0;">
   <img src="/images/ME_1.jpg" alt="" style="max-width:100%; height:auto; width:75%;">
-<figcaption style="margin-top: 0.5rem; font-size: 0.9em; color: #888;">Impact Deflection Analysis of the Chassis Design</figcaption>
+<figcaption style="margin-top: 0.5rem; font-size: 0.9em; color: #888;">Figure 1: Impact Deflection Analysis of the Chassis</figcaption>
 </figure>
 <br/>
 
