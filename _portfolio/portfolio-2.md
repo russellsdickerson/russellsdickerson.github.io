@@ -1,5 +1,5 @@
 ---
-title: "R/C Electric Racecar: Design, Simulation, and Testing"
+title: "Remote-Controlled Electric Racecar Design"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/RC_Car.jpg' alt='racecar_design' style='max-width:100%; height:auto; width:450px;'>"
 collection: portfolio
 ---
@@ -14,7 +14,7 @@ In this project, my team and I designed, modeled, manufactured, and tested a rem
 
 ### Chassis
 
-The main chassis was 3D printed in ABS plastic, selected for its combination of geometric flexibility and moderate strength-to-weight ratio. The design geometry emulated traditional R/C cars to allow the use of known aerodynamic coefficients while optimizing internal component fit. Finite Element Analysis (FEA) conducted in SolidWorks indicated that peak deflections in the steering linkage holders—the most fragile structural elements—were minimal, affirming the structural feasibility of additive manufacturing for low-load mobile platforms[^1].
+The main chassis was 3D printed in ABS plastic, selected for its combination of geometric flexibility and moderate strength-to-weight ratio. The design geometry emulated traditional R/C cars to allow the use of known aerodynamic coefficients while optimizing internal component fit. Finite Element Analysis (FEA) conducted in SolidWorks indicated that peak deflections in the steering linkage holders—the most fragile structural elements—were minimal, affirming the structural feasibility of additive manufacturing for low-load mobile platforms.
 
 ### Drivetrain
 
@@ -29,13 +29,13 @@ A custom rack-and-pinion mechanism was developed to enable active front-wheel st
 To ensure structural and dynamic performance, we performed a series of simulations and analytical calculations. FEA in SolidWorks was used to determine the car’s stiffness by measuring force-displacement relationships, which then informed our calculation of impact forces during collision scenarios using \( F = v \sqrt{mk} \). These modeling efforts verified that the structure could withstand expected loading scenarios during operation and crash events.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-  <img src="/images/wheel_spin.gif" alt="wheel_spin" style="max-width: 100%; width: 45%; height:auto;">
-  <img src="/images/ME_3.jpg" alt="ME_3" style="max-width: 100%; width: 45%; height:auto;">
+    <img src="/images/wheel_spin.gif" alt="wheel_spin" style="max-width: 100%; width: 45%; height:auto;">
+    <img src="/images/ME_3.jpg" alt="ME_3" style="max-width: 100%; width: 45%; height:auto;">
 </div>
 
 
-<img src='/images/ME_1.jpg' alt='' style='max-width:100%; height:auto; width:450px;'>
-<img src='/images/ME_2.jpg' alt='' style='max-width:100%; height:auto; width:450px;'>
+<img src='/images/ME_1.jpg' alt='' style='max-width:100%; height:auto; width:60%; justify-content: center;'>
+<img src='/images/ME_2.jpg' alt='' style='max-width:100%; height:auto; width:50%; justify-content: center;'>
 
 
 ## Optimization
@@ -50,8 +50,7 @@ The chassis itself was additively manufactured overnight, and metal shafts and p
 
 While our design originally incorporated off-the-shelf oil-embedded sleeve bearings, we transitioned to machining our own to match the 3D printed wheel tolerances. These bearings enabled free rotation in the front wheels and secure mounting on the rear driveshaft. Key challenges included low-resolution 3D printers, infill calibration, and strength degradation due to print orientation. Components like the steering rack and linkages required multiple iterations to achieve functional mechanical tolerances.
 
-<img src='/images/ME_4.jpg' alt='' style='max-width:100%; height:auto; width:450px;'>
-<img src='/images/ME_5.jpg' alt='' style='max-width:100%; height:auto; width:450px;'>
+<img src='/images/ME_4.jpg' alt='' style='max-width:100%; height:auto; width:75%; justify-content: center;'>
 
 ## Performance
 
@@ -59,7 +58,7 @@ Our car successfully completed one race lap before mechanical failure occurred d
 
 Despite the failure, the system demonstrated strong alignment between modeling predictions and observed performance. All mechanical subsystems operated as designed under nominal conditions.
 
-<img src='/images/competition_video.gif' alt='racecar GIF' style='max-width:100%; height:auto; width:450px;'>
+<img src='/images/competition_video.gif' alt='racecar GIF' style='max-width:100%; height:auto; width:90%; justify-content: center;'>
 
 ## Conclusion
 
