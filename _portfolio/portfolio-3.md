@@ -1,6 +1,6 @@
 ---
-title: "Custom Additive Manufacturing for edible shear-thinning, viscoelastic, non-Newtonian fluids"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Additive Manufacturing Device for Edible Shear-thinning, Viscoelastic, Non-Newtonian Fluids"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/3D_Printer.png'>"
 collection: portfolio
 ---
 
