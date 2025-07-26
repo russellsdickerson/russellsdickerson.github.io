@@ -4,7 +4,7 @@ excerpt: "Short description of portfolio item number 1<br/><img src='/images/RC_
 collection: portfolio
 ---
 
-<img src='/images/RC_Car.jpg' alt='racecar_design' style='max-width:100%; height:auto; width:450px;'>
+<img src='/images/RC_Car.jpg' alt='racecar_design' style='max-width:100%; height:auto; width:90%; justify-content: center;'>
 
 ## Introduction
 
@@ -40,7 +40,7 @@ To ensure structural and dynamic performance, we performed a series of simulatio
 
 ## Optimization
 
-A MATLAB-based simulation was developed to evaluate how varying transmission ratios would impact velocity and torque across a range of values. The simulation incorporated aerodynamic drag, weight, frictional losses, and motor torque-speed curves. Our final transmission ratio of 0.39 was within the acceptable operational range (≥ 0.2), resulting in an estimated maximum velocity near 12 m/s. Additionally, a 3D surface plot was generated to visualize tradeoffs between torque, speed, and gear ratio, guiding system-level design decisions[^3].
+A MATLAB-based simulation was developed to evaluate how varying transmission ratios would impact velocity and torque across a range of values. The simulation incorporated aerodynamic drag, weight, frictional losses, and motor torque-speed curves. Our final transmission ratio of 0.39 was within the acceptable operational range (≥ 0.2), resulting in an estimated maximum velocity near 12 m/s. Additionally, a 3D surface plot was generated to visualize tradeoffs between torque, speed, and gear ratio, guiding system-level design decisions.
 
 We also analytically derived the minimum turning radius by geometrically modeling the chassis and applying a maximum steering angle of 45°. This confirmed that the custom steering design met maneuverability targets for the constrained track layout.
 
