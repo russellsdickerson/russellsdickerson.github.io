@@ -1,0 +1,15 @@
+---
+title: "Electric Car"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+collection: portfolio
+---
+
+ The team’s design focused on achieving several key goals: reducing drag, ensuring sturdy construction through 3D printing, enabling modularity for safety, and protecting critical components. To accomplish this, the strategy emphasized leveraging 3D printing to shape both the form factor and protective features. FEA simulations were conducted to analyze deflections and estimate impact forces, which guided iterative design improvements. The drivetrain was designed using MATLAB simulations to evaluate velocity and acceleration across different gear ratios and wheel radii, leading to the selection of an optimal transmission ratio based on Jake’s 3D code visualizations. Bearings were chosen from McMaster-Carr, with custom machining to match a compact 3mm bore and 8mm outer diameter. The steering mechanism was built around a parallelogram configuration for consistent turning behavior, modeled in SolidWorks and supported by analytical turn radius calculations. Assembly involved multiple iterations of 3D-printed chassis components, which initially caused interference issues between gears and motors. These were resolved by adding an intermediate gear and mirroring the assembly to ensure proper forward motion. Shaft dimensions were refined through custom machining, allowing for a better fit and additional protection for the wheels. The steering assembly posed 3D printing challenges, which were addressed through motion studies and renders demonstrating gear operation, component placement, and overall movement of the vehicle.
+
+ Our team set out to design and fabricate a small-scale autonomous vehicle focused on minimizing drag, maximizing structural protection, and enabling modularity for safety and repair. These goals shaped every phase of the project—from component layout to material selection and assembly strategies.
+ 
+ We opted to 3D print the entire chassis using ABS plastic, which offered the customizability and durability needed to fit all components securely while maintaining an aerodynamic form. Using SolidWorks simulations, we analyzed deflections and estimated impact forces to confirm the design’s resilience under normal operating conditions
+ 
+ The drivetrain consisted of a motor-driven rear axle and a MATLAB-optimized gear system. By modeling various gear ratios and torque outputs, we arrived at a transmission ratio that achieved our desired performance while preserving mechanical efficiency. A custom-machined intermediate gear resolved clearance issues within the compact chassis design
+ 
+ Bearing assemblies were custom-fitted to 3D-printed wheels, allowing for smooth rotation while keeping weight and complexity low. Steering was achieved via a custom rack-and-pinion system actuated by a servo motor. Despite challenges in printing gear teeth with adequate precision, multiple iterations led to a functional steering assembly with a calculated turning radius using geometric modeling
