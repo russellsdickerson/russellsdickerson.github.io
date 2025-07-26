@@ -42,7 +42,7 @@ A MATLAB simulation was developed to evaluate how varying transmission ratios wo
 <div style="text-align: center;">
     <img src="/images/ME_2.jpg" alt="" style="max-width:100%; height:auto; width:75%;">
 </div>
-<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 4: Torque vs. Speed vs. Transmission Ration Optimization Plot</p>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 4: Torque vs. Speed vs. Transmission Ratio Optimization Plot</p>
 
 ## Manufacturing
 
