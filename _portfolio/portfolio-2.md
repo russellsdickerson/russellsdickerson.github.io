@@ -3,8 +3,9 @@ title: "Remote-Controlled Electric Racecar Design"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/RC_Car.jpg' alt='racecar_design' style='max-width:100%; height:auto; width:450px;'>"
 collection: portfolio
 ---
-
-<img src='/images/RC_Car.jpg' alt='racecar_design' style='max-width:100%; height:auto; width:90%; justify-content: center;'>
+<div style="text-align: center;">
+    <img src="/images/RC_Car.jpg" alt="racecar_design" style="max-width:100%; height:auto; width:90%; justify-content: center;">
+</div>
 
 ## Introduction
 
@@ -24,23 +25,24 @@ The drivetrain was rear-wheel drive, implemented using a custom gear train with 
 
 A custom rack-and-pinion mechanism was developed to enable active front-wheel steering. The servo-driven rack actuated two pinned steering linkages affixed to the chassis. Due to the complexity of the geometry, all steering components were 3D printed, and metal pins were machined for durability. Multiple reprints were required to ensure proper meshing of gear teeth and mechanical tolerances.
 
-## Modeling
-
-To ensure structural and dynamic performance, we performed a series of simulations and analytical calculations. FEA in SolidWorks was used to determine the car’s stiffness by measuring force-displacement relationships, which then informed our calculation of impact forces during collision scenarios using \( F = v \sqrt{mk} \). These modeling efforts verified that the structure could withstand expected loading scenarios during operation and crash events.
-
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
     <img src="/images/wheel_spin.gif" alt="wheel_spin" style="max-width: 100%; width: 45%; height:auto;">
     <img src="/images/wheel_turn.gif" alt="ME_3" style="max-width: 100%; width: 45%; height:auto;">
 </div>
 
+## Modeling
 
-<img src='/images/ME_1.jpg' alt='' style='max-width:100%; height:auto; width:75%; justify-content: center;'>
-<img src='/images/ME_2.jpg' alt='' style='max-width:100%; height:auto; width:75%; justify-content: center;'>
+To ensure structural and dynamic performance, we performed a series of simulations and analytical calculations. FEA in SolidWorks was used to determine the car’s stiffness by measuring force-displacement relationships, which then informed our calculation of impact forces during collision scenarios using \( F = v \sqrt{mk} \). These modeling efforts verified that the structure could withstand expected loading scenarios during operation and crash events.
 
-
-## Optimization
+<div style="text-align: center;">
+  <img src="/images/ME_1.jpg" alt="" style="max-width:100%; height:auto; width:75%;">
+</div>
 
 A MATLAB-based simulation was developed to evaluate how varying transmission ratios would impact velocity and torque across a range of values. The simulation incorporated aerodynamic drag, weight, frictional losses, and motor torque-speed curves. Our final transmission ratio of 0.39 was within the acceptable operational range (≥ 0.2), resulting in an estimated maximum velocity near 12 m/s. Additionally, a 3D surface plot was generated to visualize tradeoffs between torque, speed, and gear ratio, guiding system-level design decisions.
+
+<div style="text-align: center;">
+    <img src="/images/ME_2.jpg" alt="" style="max-width:100%; height:auto; width:75%;">
+</div>
 
 We also analytically derived the minimum turning radius by geometrically modeling the chassis and applying a maximum steering angle of 45°. This confirmed that the custom steering design met maneuverability targets for the constrained track layout.
 
@@ -49,8 +51,9 @@ We also analytically derived the minimum turning radius by geometrically modelin
 The chassis itself was additively manufactured overnight, and metal shafts and pins were manually machined. Assembly included involved solving some interfereance issues between the gears and motor. These were resolved by adding an intermediate gear and mirroring the assembly to ensure proper forward motion.
 
 While our design originally incorporated off-the-shelf oil-embedded sleeve bearings, we transitioned to machining our own to match the 3D printed wheel tolerances. These bearings enabled free rotation in the front wheels and secure mounting on the rear driveshaft. Key challenges included low-resolution 3D printers, infill calibration, and strength degradation due to print orientation. Components like the steering rack and linkages required multiple iterations to achieve functional mechanical tolerances.
-
-<img src='/images/ME_4.jpg' alt='' style='max-width:100%; height:auto; width:75%; justify-content: center;'>
+<div style="text-align: center;">
+    <img src="/images/ME_4.jpg" alt="" style="max-width:100%; height:auto; width:75%; justify-content: center;">
+</div>
 
 ## Performance
 
@@ -58,7 +61,9 @@ Our car successfully completed one race lap before mechanical failure occurred d
 
 Despite the failure, the system demonstrated strong alignment between modeling predictions and observed performance. All mechanical subsystems operated as designed under nominal conditions.
 
-<img src='/images/competition_video.gif' alt='racecar GIF' style='max-width:100%; height:auto; width:75%; justify-content: center;'>
+<div style="text-align: center;">
+    <img src="/images/competition.gif" alt="racecar GIF" style="max-width:100%; height:auto; width:75%; justify-content: center;">
+</div>
 
 ## Conclusion
 
