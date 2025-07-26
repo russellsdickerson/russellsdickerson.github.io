@@ -36,13 +36,13 @@ To ensure structural and dynamic performance, we performed a series of simulatio
 
 <div style="text-align: center;">
   <img src="/images/ME_1.jpg" alt="" style="max-width:100%; height:auto; width:75%;">
-</div>
+</div>  
 
 A MATLAB-based simulation was developed to evaluate how varying transmission ratios would impact velocity and torque across a range of values. The simulation incorporated aerodynamic drag, weight, frictional losses, and motor torque-speed curves. Our final transmission ratio of 0.39 was within the acceptable operational range (≥ 0.2), resulting in an estimated maximum velocity near 12 m/s. Additionally, a 3D surface plot was generated to visualize tradeoffs between torque, speed, and gear ratio, guiding system-level design decisions.
 
 <div style="text-align: center;">
     <img src="/images/ME_2.jpg" alt="" style="max-width:100%; height:auto; width:75%;">
-</div>
+</div>  
 
 We also analytically derived the minimum turning radius by geometrically modeling the chassis and applying a maximum steering angle of 45°. This confirmed that the custom steering design met maneuverability targets for the constrained track layout.
 
