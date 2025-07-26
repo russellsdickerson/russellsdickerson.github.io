@@ -6,18 +6,20 @@ collection: portfolio
 <div style="text-align: center;">
     <img src="/images/RC_Car.jpg" alt="racecar_design" style="max-width:100%; height:auto; width:90%; justify-content: center;">
 </div>
+<br/>
 
-In this project, my team and I designed, modeled, manufactured, and raced a remote-controlled car in a competition. The design prioritized achieving the following goals: maximizing speed and acceleration, reducing drag, maintaining durability, capitalizing on modular parts, and protecting internal components. These goals informed design decisions throughout the engineering process.
+The following sections detail the thought processes underlying the design, modeling, and fabrication of a remote-controlled racecar for a competition I participated in. Overall, the design prioritized achieving the following goals: maximizing speed and acceleration, reducing drag, maintaining durability, capitalizing on modular parts, and protecting internal components. In turn, these goals informed design decisions throughout the engineering process.
 
 ## Design
 
 ### Chassis
 
-The main chassis was printed with ABS thermoplastic using an FDM printer. This method was selected due to its combination of high customizablity, and moderate strength-to-weight ratio. The structure emulated traditional R/C cars to allow the use of known aerodynamic coefficients while optimizing internal component fit. Finite Element Analysis conducted in SolidWorks demonstrated that the structure was durable, with the only semi-fragile features being the steering linkage holders located at the front wheels. In order to be certain of the integrity of the design and manufacturing method, the car’s stiffness was determined by measuring force-displacement relationships, which then informed our calculation of impact forces during collision scenarios. These modeling efforts verified that the structure could withstand expected loading scenarios during operation and crash events.
+The main chassis was printed using ABS thermoplastic on an FDM printer. This method was selected due to its combination of high customizablity, and moderate strength-to-weight ratio. The structure emulated traditional R/C cars to allow the use of known aerodynamic coefficients while optimizing internal component fit. Finite Element Analysis conducted in SolidWorks demonstrated that the structure was durable, with the only semi-fragile features being the steering linkage holders located at the front wheels. In order to be certain of the integrity of the design and manufacturing method, the car’s stiffness was determined by measuring force-displacement relationships, which then informed our calculation of impact forces during collision scenarios. These modeling efforts verified that the structure could withstand expected loading scenarios during operation and crash events.
 
-<div style="text-align: center;">
+<figure style="text-align: center;">
   <img src="/images/ME_1.jpg" alt="" style="max-width:100%; height:auto; width:75%;">
-</div>
+<figcaption style="margin-top: 0.5rem; font-size: 0.9em; color: #888;">Impact Deflection Analysis of the Chassis Design</figcaption>
+</figure>
 <br/>
 
 ### Drivetrain
@@ -52,7 +54,7 @@ The chassis,, wheels, steering apparatus, and roll cage were additively manufact
 
 ## Performance
 
-The car successfully completed the race and was overall one of the fastest, most durable designs. Watch as it crosses the finish line below.
+The car successfully completed the race and was overall the fastest, most agile design. Watch as it speeds around an obstacle and safely crosses the finish line below.
 
 <div style="text-align: center;">
     <img src="/images/competition.gif" alt="racecar GIF" style="max-width:100%; height:auto; width:75%; justify-content: center;">
