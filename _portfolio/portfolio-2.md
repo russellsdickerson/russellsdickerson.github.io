@@ -30,12 +30,12 @@ To ensure structural and dynamic performance, we performed a series of simulatio
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
     <img src="/images/wheel_spin.gif" alt="wheel_spin" style="max-width: 100%; width: 45%; height:auto;">
-    <img src="/images/ME_3.jpg" alt="ME_3" style="max-width: 100%; width: 45%; height:auto;">
+    <img src="/images/wheel_turn.gif" alt="ME_3" style="max-width: 100%; width: 45%; height:auto;">
 </div>
 
 
-<img src='/images/ME_1.jpg' alt='' style='max-width:100%; height:auto; width:60%; justify-content: center;'>
-<img src='/images/ME_2.jpg' alt='' style='max-width:100%; height:auto; width:50%; justify-content: center;'>
+<img src='/images/ME_1.jpg' alt='' style='max-width:100%; height:auto; width:75%; justify-content: center;'>
+<img src='/images/ME_2.jpg' alt='' style='max-width:100%; height:auto; width:75%; justify-content: center;'>
 
 
 ## Optimization
@@ -58,7 +58,7 @@ Our car successfully completed one race lap before mechanical failure occurred d
 
 Despite the failure, the system demonstrated strong alignment between modeling predictions and observed performance. All mechanical subsystems operated as designed under nominal conditions.
 
-<img src='/images/competition_video.gif' alt='racecar GIF' style='max-width:100%; height:auto; width:90%; justify-content: center;'>
+<img src='/images/competition_video.gif' alt='racecar GIF' style='max-width:100%; height:auto; width:75%; justify-content: center;'>
 
 ## Conclusion
 
