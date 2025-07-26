@@ -8,11 +8,6 @@ author_profile: true
 {% include base_path %}
 
 ---
-layout: single
-title: "Research"
-permalink: /research/
-author_profile: true
----
 
 ## Fabric-Based Pouch Grid Actuator (In Progress)<span style="float:right"><em>Apr 2025 – Present</em></span>  
 *FREE Lab, University of Michigan*  
