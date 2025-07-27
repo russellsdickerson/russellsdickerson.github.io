@@ -60,7 +60,6 @@ The final prototype met all core performance and design criteria. It delivered c
 
 <video controls autoplay loop muted playsinline style="display: block; margin: 0 auto; width: 60%;">
   <source src="/images/Printing_heart_x1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
 </video>
 <p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0.5rem;">
   Figure 3: Demonstration of Print: Heart
