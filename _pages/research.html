@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% include base_path %}
-
+<p>Research entries found: {{ site.research | size }}</p>
 
 {% for post in site.research %}
   {% include archive-single.html %}
