@@ -4,6 +4,11 @@ excerpt: "Short description of portfolio item number 1<br/><img src='/images/3D_
 collection: portfolio
 ---
 
+<div style="text-align: center;">
+    <img src="/images/3D_Printer.jpg" alt="printer_design" style="max-width:100%; height:auto; width:90%; justify-content: center;">
+</div>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 1: Completed Model of Printer Design</p>
+
 The goal of this project was to create a functional prototype of a low-cost, 3D printer for automated deposition of edible materials, such as icing.
 
 ## Design
@@ -14,15 +19,30 @@ At a high level, the mechanical design consists of four integrated subsystems: t
 
 ### CoreXY Gantry
 
-The printer employs a CoreXY architecture for planar motion, selected for its mechanical efficiency, low inertia, and precision at scale. It consists of two orthogonally mounted rods, each actuated by independent stepper motors via a belt loop mechanism. The print head is suspended at the intersection of the rods and moves through a carriage glider system. To minimize friction and backlash, the team replaced traditional sliding bearings with top-mounted gliders that ride on the guide rods, reducing assembly complexity and mechanical binding. This configuration also allowed for consistent belt tensioning and simplified calibration. The gantry system was optimized through iterative prototyping and validated using factorial experiments assessing motion accuracy, confirming the system's ability to maintain sub-2 mm error across travel paths, including diagonals.
+The printer employs a CoreXY system for planar motion, selected for its mechanical efficiency, low inertia, and precision at scale. It consists of two orthogonally mounted rods, each actuated by independent stepper motors via a belt loop mechanism. The print head is suspended at the intersection of the rods and moves through a carriage glider system. To minimize friction and backlash, the team replaced traditional sliding bearings with top-mounted gliders that ride on the guide rods, reducing assembly complexity and mechanical binding. This configuration also allowed for consistent belt tensioning and simplified calibration. The gantry system was optimized through iterative prototyping and validated using factorial experiments assessing motion accuracy, confirming the system's ability to maintain sub-2 mm error across travel paths, including diagonals.
+
+<div style="text-align: center;">
+    <img src="/images/CoreXY.jpg" alt="XY_system" style="max-width:100%; height:auto; width:90%; justify-content: center;">
+</div>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 2: Overlooking the CoreXY System</p>
 
 ### Extruder
 
 The extrusion mechanism uses a syringe-actuated design. A non-captive NEMA 17 stepper motor drives a threaded lead screw, converting rotary motion into linear displacement of the syringe plunger. This direct-drive approach eliminates the need for pneumatic or pump-based systems, which are more complex and harder to clean. The syringe is held within a custom 3D-printed clamp that allows for quick insertion and removal without tools. The use of a standard 100 mL syringe enables users to preload icing and easily switch between batches. The plunger interface was designed with modularity in mind, allowing for accurate, repeatable extrusion strokes while maintaining food safety standards. Experimentally, this design provided sufficient extrusion force even under varying icing viscosities, without requiring heating or pressure feedback.
 
+<div style="text-align: center;">
+    <img src="/images/Extruder.jpg" alt="extruder" style="max-width:100%; height:auto; width:90%; justify-content: center;">
+</div>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 3: Extrusion System</p>
+
 ### Support Enclosure
 
 The support frame and enclosure were constructed using laser-cut wood panels and joined via interlocking dovetail features to eliminate the need for screws or adhesives at the major joints. This design choice simplified alignment during assembly and improved the reproducibility of builds for DIY users. The total printer volume was 3.58 ft³ which meets the 4 ft³ requirement to fit within standard kitchen workspaces. An acrylic baseplate was used in place of a wood-silicone sandwich design to improve food safety and cleanability, avoiding moisture retention and mold formation. Structural integrity o the frame was analyzed via finite element simulation of the frame legs, revealing stress concentrations located at the connection points. In order to mitigate this, L-brackets were introduced to reinforce the joints and reduce deflection under load. Vibration damping and motor torque accommodation were also considered, ensuring that the enclosure would remain stable during operation.
+
+<div style="text-align: center;">
+    <img src="/images/Support.jpg" alt="support" style="max-width:100%; height:auto; width:90%; justify-content: center;">
+</div>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 4: Support Structure</p>
 
 ### Control System
 
