@@ -4,6 +4,7 @@ excerpt: "Short description of portfolio item number 1<br/><img src='/images/Dog
 collection: portfolio
 ---
 
+<br/>
 <div style="text-align: center;">
     <img src="/images/DogBiteXSection.png" alt="design" style="max-width:100%; height:auto; width:60%; justify-content: center;">
 </div>
