@@ -31,7 +31,7 @@ The printer employs a CoreXY system for planar motion, selected for its mechanic
 The extrusion mechanism uses a syringe-actuated design. A non-captive NEMA 17 stepper motor drives a threaded lead screw, converting rotary motion into linear displacement of the syringe plunger. This direct-drive approach eliminates the need for pneumatic or pump-based systems, which are more complex and harder to clean. The syringe is held within a custom 3D-printed clamp that allows for quick insertion and removal without tools. The use of a standard 100 mL syringe enables users to preload icing and easily switch between batches. The plunger interface was designed with modularity in mind, allowing for accurate, repeatable extrusion strokes while maintaining food safety standards. Experimentally, this design provided sufficient extrusion force even under varying icing viscosities, without requiring heating or pressure feedback.
 
 <div style="text-align: center;">
-    <img src="/images/Extruder.jpg" alt="extruder" style="max-width:100%; height:45%; width:45%; justify-content: center;">
+    <img src="/images/Extruder.jpg" alt="extruder" style="max-width:100%; height:auto; width:45%; justify-content: center;">
 </div>
 <p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 3: Extrusion System</p>
 
