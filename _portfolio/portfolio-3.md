@@ -9,13 +9,20 @@ collection: portfolio
 </div>
 <p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 1: Completed Model of Printer Design</p>
 
-The goal of this project was to create a functional prototype of a low-cost, 3D printer for automated deposition of edible materials, such as icing.
-
 ## Design
 
-The design process began with stakeholder interviews to identify key user requirements. From the results of the interviews, it was determined that print customizability, food safety, print accuracy, affordability, and ease of use were the most important requirements to consider. They were then translated into quantitative specifications such as ±2 mm positional tolerance, < 4 ft³ build volume, and a sub-$250 total cost. Several design concepts were explored using tools such as functional decomposition, morph matrices, and Pugh chart analyses. In the end, a CoreXY motion system was selected and paired with a syringe-based extrusion mechanism as the optimal configuration for meeting performance, manufacturability, and cost criteria.
+The goal of this project was to create a functional prototype of a low-cost, 3D printer for automated deposition of edible materials, such as icing. The design process began with stakeholder interviews to identify key user requirements. From the results of the interviews, it was determined that print customizability, food safety, print accuracy, affordability, and ease of use were the most important requirements to consider. They were then translated into quantitative specifications such as ±2 mm positional tolerance, < 4 ft³ build volume, and a sub-$250 total cost. Several design concepts were explored using tools such as functional decomposition, morph matrices, and Pugh chart analyses. In the end, a CoreXY motion system was selected and paired with a syringe-based extrusion mechanism as the optimal configuration for meeting performance, manufacturability, and cost criteria.
 
 At a high level, the mechanical design consists of four integrated subsystems: the XY gantry, the extruder, the support enclosure, and the control system. These subsystems will be explained in the following sections.
+
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+  <img src="/images/CoreXY.jpg" alt="XY_system" style="width: 30%; height: auto;">
+  <img src="/images/Extruder.jpg" alt="extruder" style="width: 30%; height: auto;">
+  <img src="/images/Support.png" alt="support" style="width: 30%; height: auto;">
+</div>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0.5rem;">
+  Figure 2: Printer Subsystems (left to right): CoreXY, Extruder, Support
+</p>
 
 ### CoreXY Gantry
 
@@ -33,15 +40,6 @@ The support frame and enclosure were constructed using laser-cut wood panels and
 
 The control system is built around an Arduino Mega microcontroller paired with a RAMPS 1.4 shield and A4988 stepper drivers. The firmware used is Marlin, a widely adopted open-source platform configured to support Cartesian motion and manual Z-axis adjustments. Users interact with the printer via Repetier-Host, which serves as the G-code sender and real-time interface. This combination of software allows for fine-grained tuning of parameters such as feed rate, steps/mm, and acceleration curves. During calibration, custom motion commands were issued through Repetier to analyze positional accuracy and response timing. Adjustments to firmware parameters were made iteratively based on experimental data, ultimately converging on a setting of 5 steps/mm for both X and Y axes. The electrical components are housed in a ventilated top-mounted enclosure to prevent overheating during long print sessions, and wiring was routed internally for safety and organization.
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-  <img src="/images/CoreXY.jpg" alt="XY_system" style="width: 30%; height: auto;">
-  <img src="/images/Extruder.jpg" alt="extruder" style="width: 30%; height: auto;">
-  <img src="/images/Support.png" alt="support" style="width: 30%; height: auto;">
-</div>
-<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0.5rem;">
-  Figure 2: Printer Subsystems (left to right): CoreXY, Extruder, Support
-</p>
-
 ## Experimentation & Validation
 
 To evaluate the accuracy of our XY motion system and verify firmware calibration, we conducted a factorial experiment examining how feed rate, travel distance, and motion type (straight vs. diagonal) affected positional error and print time. Our primary goal was to determine whether the configured steps-per-millimeter parameter in the Marlin firmware produced accurate physical displacement.
@@ -58,9 +56,9 @@ Throughout the design process, manufacturing efficiency and ease of assembly wer
 
 ## Conclusion
 
-The final prototype met all core performance and design criteria. It delivered consistent icing deposition within ±2 mm of design paths, demonstrated modularity and user-friendliness, and remained within the prescribed budget and size constraints. Overall, the project demonstrates the viability of a low-cost, precision food printer built from accessible components and guided by structured engineering design principles. See below for examples of the printer in action.
+The final prototype met all core performance and design criteria. It delivered consistent icing deposition within ±2 mm of design paths, demonstrated modularity and user-friendliness, and remained within the prescribed budget and size constraints. Overall, the project demonstrates the viability of a low-cost, precision food printer built from accessible components and guided by structured engineering design principles. See below for an example of the printer in action.
 
 <div style="text-align: center;">
     <img src="/images/Printing_heart_x1.gif" alt="icing_heart" style="max-width: 100%; width: 45%; height:auto;">
 </div>
-<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 5: Demonstration of Print Geometries: Heart</p>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 3: Demonstration of Print: Heart</p>
