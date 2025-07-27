@@ -1,6 +1,6 @@
 ---
 title: "Low-Cost Icing CoreXY 3D Printer"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/3D_Printer.png' alt='Image of Printer_Design' style='max-width:100%; height:auto; width:450px;'>"
+excerpt: "August 2019 - December 2019<br/><img src='/images/3D_Printer.png' alt='Image of Printer_Design' style='max-width:100%; height:auto; width:450px;'>"
 collection: portfolio
 ---
 <br/>

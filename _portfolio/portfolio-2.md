@@ -1,6 +1,6 @@
 ---
 title: "Remote-Controlled Electric Racecar"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/RC_Car.jpg' alt='racecar_design' style='max-width:100%; height:auto; width:450px;'>"
+excerpt: "January 2019 - May 2019<br/><img src='/images/RC_Car.jpg' alt='racecar_design' style='max-width:100%; height:auto; width:450px;'>"
 collection: portfolio
 ---
 

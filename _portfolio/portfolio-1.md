@@ -1,6 +1,6 @@
 ---
 title: "Dog Bite Force Measurement Device"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/DogBiteXSection.png' alt='mage of Dog Bite Cross-section' style='max-width:100%; height:auto; width:450px;'>"
+excerpt: "January 2020 - May 2020<br/><img src='/images/DogBiteXSection.png' alt='mage of Dog Bite Cross-section' style='max-width:100%; height:auto; width:450px;'>"
 collection: portfolio
 ---
 
