@@ -23,7 +23,7 @@ The device was engineered to satisfy the following baseline requirements: resemb
 </div>
 <p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 2: Exploded View of the Design</p>
 
-Finite element analysis was used to simulate mechanical durability under a conservative applied load of 200 lbs, since small dog breed bite forces usually are in the range of 50-100lbs. While simulation results showed that components remained under material yield limits, these simulations were based on idealized conditions and were not validated with physical testing due to current world events.
+Finite element analysis was used to simulate mechanical durability under a conservative applied load of 200 lbs. This force was chosen as small dog breed bite forces usually are in the range of 50-100lbs. While simulation results showed that components remained under material yield limits, these simulations were based on idealized conditions and were not validated with physical testing due to current world events.
 
 ---
 
