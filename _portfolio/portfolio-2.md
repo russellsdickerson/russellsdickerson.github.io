@@ -3,10 +3,14 @@ title: "Remote-Controlled Electric Racecar"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/RC_Car.jpg' alt='racecar_design' style='max-width:100%; height:auto; width:450px;'>"
 collection: portfolio
 ---
+
+<br/>
 <div style="text-align: center;">
     <img src="/images/RC_Car.jpg" alt="racecar_design" style="max-width:100%; height:auto; width:90%; justify-content: center;">
 </div>
 <p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 1: Completed Model of Racecar Design</p>
+
+## Overview
 
 The following sections detail the thought processes underlying the design, modeling, and fabrication of a remote-controlled racecar for a competition I participated in. Overall, the design prioritized achieving the following goals: maximizing speed and acceleration, reducing drag, maintaining durability, capitalizing on modular parts, and protecting internal components. In turn, these goals informed design decisions throughout the engineering process.
 

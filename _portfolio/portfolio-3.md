@@ -9,9 +9,11 @@ collection: portfolio
 </div>
 <p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 1: Completed Model of Printer Design</p>
 
-## Design
+## Overview
 
 The goal of this project was to create a functional prototype of a low-cost, 3D printer for automated deposition of edible materials, such as icing. The design process began with stakeholder interviews to identify key user requirements. From the results of the interviews, it was determined that print customizability, food safety, print accuracy, affordability, and ease of use were the most important requirements to consider. They were then translated into quantitative specifications such as ±2 mm positional tolerance, < 4 ft³ build volume, and a sub-$250 total cost. Several design concepts were explored using tools such as functional decomposition, morph matrices, and Pugh chart analyses. In the end, a CoreXY motion system was selected and paired with a syringe-based extrusion mechanism as the optimal configuration for meeting performance, manufacturability, and cost criteria.
+
+## Design
 
 At a high level, the mechanical design consists of four integrated subsystems: the XY gantry, the extruder, the support enclosure, and the control system. These subsystems will be explained in the following sections.
 
