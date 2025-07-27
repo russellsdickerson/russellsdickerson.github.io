@@ -56,11 +56,12 @@ Throughout the design process, manufacturing efficiency and ease of assembly wer
 
 ## Conclusion
 
-The final prototype met all core performance and design criteria. It delivered consistent icing deposition within ±2 mm of design paths, demonstrated modularity and user-friendliness, and remained within the prescribed budget and size constraints. Overall, the project demonstrates the viability of a low-cost, precision food printer built from accessible components and guided by structured engineering design principles. See below for an example of the printer in action.
+The final prototype met all performance and design criteria. It delivered consistent icing deposition within ±2 mm of design paths, demonstrated modularity and user-friendliness, and remained within the prescribed budget and size constraints. Overall, the project demonstrates the viability of a low-cost, precision food printer built from accessible components and guided by structured engineering design principles. See below for a couple examples of the printer in action.
 
-<video controls muted playsinline style="display: block; margin: 0 auto; width: 60%;">
-  <source src="/images/Printing_heart_x1.mp4" type="video/mp4">
-</video>
+<div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+  <img src="/images/heart_print.jpg" alt="Heart_Print" style="width: 45%; height: auto;">
+  <img src="/images/star_print.jpg" alt="Star_Print" style="width: 45%; height: auto;">
+</div>
 <p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0.5rem;">
-  Figure 3: Demonstration of Print: Heart
+  Figure 3: Sample Prints — Heart (left) and Star (right)
 </p>
