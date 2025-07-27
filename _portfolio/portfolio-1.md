@@ -5,7 +5,7 @@ collection: portfolio
 ---
 
 <div style="text-align: center;">
-    <img src="/images/DogBiteXSection.jpg" alt="design" style="max-width:100%; height:auto; width:90%; justify-content: center;">
+    <img src="/images/DogBiteXSection.png" alt="design" style="max-width:100%; height:auto; width:90%; justify-content: center;">
 </div>
 <p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 1: Completed Model of the Design</p>
 
