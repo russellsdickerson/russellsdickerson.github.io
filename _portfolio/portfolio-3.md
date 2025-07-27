@@ -34,11 +34,13 @@ The support frame and enclosure were constructed using laser-cut wood panels and
 The control system is built around an Arduino Mega microcontroller paired with a RAMPS 1.4 shield and A4988 stepper drivers. The firmware used is Marlin, a widely adopted open-source platform configured to support Cartesian motion and manual Z-axis adjustments. Users interact with the printer via Repetier-Host, which serves as the G-code sender and real-time interface. This combination of software allows for fine-grained tuning of parameters such as feed rate, steps/mm, and acceleration curves. During calibration, custom motion commands were issued through Repetier to analyze positional accuracy and response timing. Adjustments to firmware parameters were made iteratively based on experimental data, ultimately converging on a setting of 5 steps/mm for both X and Y axes. The electrical components are housed in a ventilated top-mounted enclosure to prevent overheating during long print sessions, and wiring was routed internally for safety and organization.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-<img src="/images/CoreXY.jpg" alt="XY_system" style="max-width:100%; height:auto; width:45%; justify-content: center;">
-<img src="/images/Extruder.jpg" alt="extruder" style="max-width:100%; height:auto; width:45%; justify-content: center;">
-<img src="/images/Support.png" alt="support" style="max-width:100%; height:auto; width:45%; justify-content: center;">  
+  <img src="/images/CoreXY.jpg" alt="XY_system" style="width: 30%; height: auto;">
+  <img src="/images/Extruder.jpg" alt="extruder" style="width: 30%; height: auto;">
+  <img src="/images/Support.png" alt="support" style="width: 30%; height: auto;">
 </div>
-<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 2: Printer Subsystems (left to right): CoreXY, Extruder, Support</p>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0.5rem;">
+  Figure 2: Printer Subsystems (left to right): CoreXY, Extruder, Support
+</p>
 
 ## Experimentation & Validation
 
