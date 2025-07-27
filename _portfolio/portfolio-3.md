@@ -3,7 +3,7 @@ title: "Low-Cost Icing CoreXY 3D Printer"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/3D_Printer.png' alt='Image of Printer_Design' style='max-width:100%; height:auto; width:450px;'>"
 collection: portfolio
 ---
-
+<br/>
 <div style="text-align: center;">
     <img src="/images/3D_Printer.png" alt="printer_design" style="max-width:100%; height:auto; width:60%; justify-content: center;">
 </div>
