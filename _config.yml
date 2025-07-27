@@ -290,14 +290,13 @@ defaults:
       share: true
   # _research
   - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-
+    path: ""
+    type: research
+  values:
+    layout: single
+    author_profile: true
+    share: true
+    comment: true
 
 # Sass/SCSS
 sass:
