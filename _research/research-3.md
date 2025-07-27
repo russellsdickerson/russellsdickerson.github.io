@@ -1,6 +1,6 @@
 ---
 title: "Bio-Inspired Thermal Regulation in Soft Actuators"
-excerpt: "Jan 2024 – May 2024<br/><img src='/images/Bio_6.jpg' alt='actuator' style='max-width:100%; height:auto; width:50%;'>"
+excerpt: "Jan 2024 – May 2024<br/><img src='/images/Bio_6.jpg' alt='actuator' style='max-width:100%; height:auto; width:25%;'>"
 collection: research
 ---
 
