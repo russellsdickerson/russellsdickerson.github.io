@@ -40,7 +40,7 @@ The extrusion mechanism uses a syringe-actuated design. A non-captive NEMA 17 st
 The support frame and enclosure were constructed using laser-cut wood panels and joined via interlocking dovetail features to eliminate the need for screws or adhesives at the major joints. This design choice simplified alignment during assembly and improved the reproducibility of builds for DIY users. The total printer volume was 3.58 ft³ which meets the 4 ft³ requirement to fit within standard kitchen workspaces. An acrylic baseplate was used in place of a wood-silicone sandwich design to improve food safety and cleanability, avoiding moisture retention and mold formation. Structural integrity o the frame was analyzed via finite element simulation of the frame legs, revealing stress concentrations located at the connection points. In order to mitigate this, L-brackets were introduced to reinforce the joints and reduce deflection under load. Vibration damping and motor torque accommodation were also considered, ensuring that the enclosure would remain stable during operation.
 
 <div style="text-align: center;">
-    <img src="/images/Support.jpg" alt="support" style="max-width:100%; height:auto; width:45%; justify-content: center;">
+    <img src="/images/Support.png" alt="support" style="max-width:100%; height:auto; width:45%; justify-content: center;">
 </div>
 <p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 4: Support Structure</p>
 
