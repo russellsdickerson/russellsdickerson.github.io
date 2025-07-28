@@ -58,7 +58,7 @@ Jacobian matrices \\( A \\) and \\( B \\) are obtained analytically and confirme
 
 ## Full-State Feedback Design
 
-Next, controllability is verified via rank analysis of the controllability matrix. A feedback gain \\( K \\) is then computed using pole placement for the desired poles, \\( [-3, -2, -0.7+0.2i, -0.7-0.2i] \\):
+Next, controllability is verified via rank analysis of the controllability matrix and a feedback gain \\( K \\) is computed using pole placement for the poles, \\( [-3, -2, -0.7+0.2i, -0.7-0.2i] \\):
 
 $$
 K = \begin{bmatrix} -19.3 & -22.975 & -1.59 & -5.525 \end{bmatrix}
