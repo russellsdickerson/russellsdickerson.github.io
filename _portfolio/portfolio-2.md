@@ -42,7 +42,7 @@ $$
 
 ## Linearization and State-Space Representation
 
-The system is linearized around the upright equilibrium $\phi = 0$ using the state vector:
+The system is linearized around the upright equilibrium \( \phi = 0 \) using the state vector:
 
 $$
 x = \begin{bmatrix} \phi & \dot{\phi} & \bar{s} & \dot{\bar{s}} \end{bmatrix}^T
