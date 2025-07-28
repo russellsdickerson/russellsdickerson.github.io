@@ -6,7 +6,7 @@ collection: portfolio
 
 ## Overview
 
-This project investigates the stabilization of an inverted pendulum on a cart—an archetypal example in nonlinear control theory—through both linear and nonlinear control techniques. The work comprises dimensionless modeling, linearization, full-state feedback design, and observer-based compensator implementation.
+This project investigates the stabilization of an inverted pendulum on a cart using both linear and nonlinear control techniques. Specifically, it is comprised of modeling, linearization, full-state feedback design, observer-based compensator implementation, and system simulation.
 
 ## System Modeling
 
@@ -20,7 +20,7 @@ $$
 \frac{d^2s}{dt^2} = \frac{(J+mL^2)mL\dot{\phi}^2\sin(\phi) - (mL)^2g\sin(\phi)\cos(\phi) + (J+mL^2)\mu}{(m+M)(J+mL^2) - (mL)^2\cos^2(\phi)}
 $$
 
-Dimensionless variables are introduced to improve numerical stability and generality:
+Dimensionless variables are then introduced to improve numerical stability and generality:
 
 $$
 \bar{s} = \left( \frac{M}{m+1} \right) \frac{s}{L}, \quad \bar{\mu} = \frac{\mu}{(m+M)g}, \quad \bar{t} = \frac{t}{T}
@@ -30,7 +30,7 @@ $$
 T^2 = \left( \frac{L}{g} \right)\left( \frac{J}{mL^2} + \frac{M}{m+M} \right)
 $$
 
-Rewriting the equations in terms of these variables yields:
+Thus, rewriting the equations in terms of these variables yields the following model:
 
 $$
 \frac{d^2\phi}{d\bar{t}^2} = \frac{-c\dot{\phi}^2 \sin(\phi)\cos(\phi) + \sin(\phi) - \cos(\phi)\bar{\mu}}{1 + c\sin^2(\phi)}
@@ -58,7 +58,7 @@ Jacobian matrices \\( A \\) and \\( B \\) are obtained analytically and confirme
 
 ## Full-State Feedback Design
 
-Controllability is verified via rank analysis of the controllability matrix. A feedback gain \\( K \\) is computed using pole placement:
+Next, controllability is verified via rank analysis of the controllability matrix. A feedback gain \\( K \\) is then computed using pole placement for the desired poles, \\( [-3, -2, -0.7+0.2i, -0.7-0.2i] \\):
 
 $$
 K = \begin{bmatrix} -19.3 & -22.975 & -1.59 & -5.525 \end{bmatrix}
