@@ -54,7 +54,7 @@ $$
 \dot{x} = A x + B \bar{\mu}
 $$
 
-Jacobian matrices $A$ and $B$ are obtained analytically and confirmed via MATLAB symbolic computation.
+Jacobian matrices \\( A \\) and \\( B \\) are obtained analytically and confirmed via MATLAB symbolic computation.
 
 ## Full-State Feedback Design
 
