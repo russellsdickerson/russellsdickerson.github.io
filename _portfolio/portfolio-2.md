@@ -58,7 +58,7 @@ Jacobian matrices \\( A \\) and \\( B \\) are obtained analytically and confirme
 
 ## Full-State Feedback Design
 
-Controllability is verified via rank analysis of the controllability matrix. A feedback gain $K$ is computed using pole placement:
+Controllability is verified via rank analysis of the controllability matrix. A feedback gain \\( K \\) is computed using pole placement:
 
 $$
 K = \begin{bmatrix} -19.3 & -22.975 & -1.59 & -5.525 \end{bmatrix}
@@ -70,11 +70,11 @@ $$
 \bar{\mu} = -Kx
 $$
 
-Simulations demonstrate stability up to an initial angle of $\phi(0) = 0.65$ radians for the nonlinear system. Beyond this, divergence is observed due to the limitations of the linear controller.
+Simulations demonstrate stability up to an initial angle of \\( \phi = 0.65 \\) radians for the nonlinear system. Beyond this, divergence is observed due to the limitations of the linear controller.
 
 ## Observer Design
 
-Assuming only partial state availability ($y = [\phi, \bar{s}]^T$), a Luenberger observer is designed:
+Assuming only partial state availability \\( y = [\phi, \bar{s}]^T \\), a Luenberger observer is designed:
 
 $$
 \dot{\hat{x}} = A\hat{x} + B\bar{\mu} + L(y - \hat{y}), \quad \hat{y} = C\hat{x}, \quad \bar{\mu} = -K\hat{x}
@@ -96,15 +96,15 @@ Simulations confirm improved performance and reduced estimation error across the
 
 | Initial Condition        | Linear Observer Error | Nonlinear Observer Error |
 |--------------------------|-----------------------|---------------------------|
-| $\phi(0) = 0.1$          | Low                   | Very low                  |
-| $\phi(0) = 0.5$          | Moderate              | Low                       |
-| $\phi(0) = 0.62$         | High                  | Moderate                  |
+| \\( \phi = 0.1 \\)          | Low                   | Very low                  |
+| \\( \phi = 0.5 \\)          | Moderate              | Low                       |
+| \\( \phi = 0.62 \\)         | High                  | Moderate                  |
 
 ## Conclusion
 
 This project illustrates the efficacy and limitations of linear and nonlinear control strategies for an inherently unstable system. Key takeaways include:
 
-- The linear controller stabilizes the system up to $\phi = 0.65$ radians.
+- The linear controller stabilizes the system up to \\( \phi = 0.65 \\) radians.
 - The linear observer fails to capture nonlinear dynamics far from the origin.
 - The nonlinear observer significantly improves robustness in estimating the system state under larger deviations.
 
