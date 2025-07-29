@@ -131,17 +131,17 @@ $$
 Simulations employing the linear observer-based control law evaluated both the linearized and full nonlinear pendulum-cart models for initial states ranging from \\( \phi = 0.1 \\) rad to \\( \phi = 0.65 \\) rad with the other states at zero. Notably, \\( \phi = 0.62 \\) is the largest angular displacement before the nonlinear system loses stability under observer control. As the observer reconstructs the linearized dynamics, it does so with negligible error across the entire range of conditions, confirming high estimator veracity near the linearization point. In contrast, the observer's attempt to track the nonlinear dynamics reveals that it performs well for small deviations, but its performance begins to deteriorate as the initial angle departs from equilibrium. This once again reflects the inherent locality of the linear approximation.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem;">
-  <img src="/images/inverted_pendulum_lols_oc_0.1.jpg" alt="" style="width: 47%; height: auto;">
-  <img src="/images/inverted_pendulum_lols_oc_0.62.jpg" alt="" style="width: 47%; height: auto;">
-  <img src="/images/ip_lols_oc_0.1.gif" alt="" style="width: 47%; height: auto;">
-  <img src="/images/ip_lols_oc_0.62.gif" alt="" style="width: 47%; height: auto;">
+  <img src="/images/ip_lols_oc_0.1.jpg" alt="" style="width: 47%; height: auto;">
+  <img src="/images/ip_lols_oc_0.62.jpg" alt="" style="width: 47%; height: auto;">
+  <img src="/images/inverted_pendulum_lols_oc_0.1.gif" alt="" style="width: 47%; height: auto;">
+  <img src="/images/inverted_pendulum_lols_oc_0.62.gif" alt="" style="width: 47%; height: auto;">
 </div>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem;">
-  <img src="/images/inverted_pendulum_lonls_oc_0.1.jpg" alt="" style="width: 47%; height: auto;">
-  <img src="/images/inverted_pendulum_lonls_oc_0.62.jpg" alt="" style="width: 47%; height: auto;">
-  <img src="/images/ip_lonls_oc_0.1.gif" alt="" style="width: 47%; height: auto;">
-  <img src="/images/ip_lonls_oc_0.62.gif" alt="" style="width: 47%; height: auto;">
+  <img src="/images/ip_lonls_oc_0.1.jpg" alt="" style="width: 47%; height: auto;">
+  <img src="/images/ip_lonls_oc_0.62.jpg" alt="" style="width: 47%; height: auto;">
+  <img src="/images/inverted_pendulum_lonls_oc_0.1.gif" alt="" style="width: 47%; height: auto;">
+  <img src="/images/inverted_pendulum_lonls_oc_0.62.gif" alt="" style="width: 47%; height: auto;">
 </div>
 
 ## Nonlinear Observer Compensator
@@ -156,10 +156,10 @@ $$
 This structure mirrors the nonlinear plant dynamics with an added correction term. Applying this nonlinear observer-based control law, simulations were run for the nonlinear pendulum-cart model for the same range of initial conditions: \\( \phi = 0.1 \\) rad to \\( \phi = 0.65 \\) rad while the other states are at zero. These results demonstrate markedly reduced state-estimation error and overall superior tracking performance relative to the earlier linear observer. Thus, the observer’s effectiveness across the entire operating range is confirmed.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem;">
-  <img src="/images/inverted_pendulum_nlonls_oc_0.1.jpg" alt="" style="width: 47%; height: auto;">
-  <img src="/images/inverted_pendulum_nlonls_oc_0.62.jpg" alt="" style="width: 47%; height: auto;">
-  <img src="/images/ip_nlonls_oc_0.1.gif" alt="" style="width: 47%; height: auto;">
-  <img src="/images/ip_nlonls_oc_0.62.gif" alt="" style="width: 47%; height: auto;">
+  <img src="/images/ip_nlonls_oc_0.1.jpg" alt="" style="width: 47%; height: auto;">
+  <img src="/images/ip_nlonls_oc_0.62.jpg" alt="" style="width: 47%; height: auto;">
+  <img src="/images/inverted_pendulum_nlonls_oc_0.1.gif" alt="" style="width: 47%; height: auto;">
+  <img src="/images/inverted_pendulum_nlonls_oc_0.62.gif" alt="" style="width: 47%; height: auto;">
 </div>
 
 ## Conclusion
