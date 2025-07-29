@@ -92,13 +92,17 @@ Simulations demonstrate that by applying the control law for both the linearized
   <img src="/images/inverted_pendulum_lin_fsf_0.1.gif" alt="" style="width: 47%; height: auto;">
   <img src="/images/inverted_pendulum_lin_fsf_0.65.gif" alt="" style="width: 47%; height: auto;">
 </div>
-
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0.5rem;">
+  Figure 1: Simulation of System Linearization with Full State Feedback</p>
+<br/>
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem;">
   <img src="/images/ip_nonlin_fsf_0.1.jpg" alt="" style="width: 47%; height: auto;">
   <img src="/images/ip_nonlin_fsf_0.65.jpg" alt="" style="width: 47%; height: auto;">
   <img src="/images/inverted_pendulum_nonlin_fsf_0.1.gif" alt="" style="width: 47%; height: auto;">
   <img src="/images/inverted_pendulum_nonlin_fsf_0.65.gif" alt="" style="width: 47%; height: auto;">
 </div>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0.5rem;">
+  Figure 2: Simulation of Nonlinear Inverted Pendulum System with Full State Feedback</p>
 
 ## Observer Design
 
@@ -136,13 +140,17 @@ Simulations employing the linear observer-based control law evaluated both the l
   <img src="/images/inverted_pendulum_lols_oc_0.1.gif" alt="" style="width: 47%; height: auto;">
   <img src="/images/inverted_pendulum_lols_oc_0.62.gif" alt="" style="width: 47%; height: auto;">
 </div>
-
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0.5rem;">
+  Figure 3: Simulation of System Linearization with Linear Observer-based Compensator</p>
+<br/>
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem;">
   <img src="/images/ip_lonls_oc_0.1.jpg" alt="" style="width: 47%; height: auto;">
   <img src="/images/ip_lonls_oc_0.62.jpg" alt="" style="width: 47%; height: auto;">
   <img src="/images/inverted_pendulum_lonls_oc_0.1.gif" alt="" style="width: 47%; height: auto;">
   <img src="/images/inverted_pendulum_lonls_oc_0.62.gif" alt="" style="width: 47%; height: auto;">
 </div>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0.5rem;">
+  Figure 4: Simulation of Nonlinear Inverted Pendulum System with Linear Observer-based Compensator</p>
 
 ## Nonlinear Observer Compensator
 
@@ -161,6 +169,8 @@ This structure mirrors the nonlinear plant dynamics with an added correction ter
   <img src="/images/inverted_pendulum_nlonls_oc_0.1.gif" alt="" style="width: 47%; height: auto;">
   <img src="/images/inverted_pendulum_nlonls_oc_0.62.gif" alt="" style="width: 47%; height: auto;">
 </div>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0.5rem;">
+  Figure 5: Simulation of Nonlinear Inverted Pendulum System with Nonlinear Observer-based Compensator</p>
 
 ## Conclusion
 
