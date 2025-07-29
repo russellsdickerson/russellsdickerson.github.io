@@ -73,7 +73,7 @@ $$
 
 ## Full-State Feedback Design
 
-Next, controllability is verified via rank analysis of the controllability matrix. The desired poles for the system will be set to -3, -2, -0.7+0.2i, and -0.7-0.2i respectively. Because these poles were placed so that their real components are negative, this implies that the eigenvalues of the matrix \\( A \\) are strictly negative, which further implies that the matrix \\( A \\) is Hurwitz. Therefore, it can be concluded by Lyapunov’s Indirect Method, that the origin is ideed an asymptotically stable equilibrium point. Therefore, by using pole placement, a feedback gain \\( K \\) is now computed.
+Next, controllability is verified via rank analysis of the controllability matrix. The desired poles for the system will be set to -3, -2, -0.7+0.2i, and -0.7-0.2i respectively. Because these poles were placed so that their real components are negative, this implies that the eigenvalues of the matrix \\( A \\) are strictly negative, which further implies that the matrix \\( A \\) is Hurwitz. Therefore, it can be concluded by Lyapunov’s Indirect Method, that the origin is indeed an asymptotically stable equilibrium point. Therefore, by using pole placement, a feedback gain \\( K \\) is now computed.
 
 $$
 K = \begin{bmatrix} -19.3 & -22.975 & -1.59 & -5.525 \end{bmatrix}
