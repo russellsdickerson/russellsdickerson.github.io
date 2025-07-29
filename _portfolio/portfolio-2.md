@@ -88,8 +88,8 @@ Simulations demonstrate that by applying the control law for both the linearized
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
   <img src="/images/ip_lin_fsf_0.1.jpg" alt="lin_fsf_0.1.jpg" style="width: 45%; height: auto;">
-  <img src="/images/inverted_pendulum_lin_fsf_0.1.gif.jpg" alt="lin_fsf_0.1.gif" style="width: 45%; height: auto;">
   <img src="/images/ip_lin_fsf_0.65.jpg" alt="lin_fsf_0.65" style="width: 45%; height: auto;">
+  <img src="/images/inverted_pendulum_lin_fsf_0.1.gif" alt="lin_fsf_0.1.gif" style="width: 45%; height: auto;">
   <img src="/images/inverted_pendulum_lin_fsf_0.65.gif" alt="lin_fsf_0.65" style="width: 45%; height: auto;">
 </div>
 
