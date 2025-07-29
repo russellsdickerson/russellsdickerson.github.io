@@ -87,7 +87,7 @@ $$
 \bar{\mu} = -Kx
 $$
 
-Simulations demonstrate that by applying the control law for both the linearized and nonlinear models at initial angles of 0.10 rad up to 0.65 rad with the other states at zero. At 0.10 rad, the linear model matches the nonlinear response, validating the local linearization. As the angle approaches 0.65 rad, the nonlinear system begins to experience more oscillation before becoming unstable. However the linear model still predicts bounded motion, exposing the approximation’s failure far from the equilibrium. Thus, as expected, the linear model remains reliable only for small perturbations around the origin.
+Simulations demonstrate that by applying the control law for both the linearized and nonlinear models at initial angles of \\( \phi = 0.1 \\) rad up to \\( \phi = 0.65 \\) rad with the other states at zero. At 0.10 rad, the linear model matches the nonlinear response, validating the local linearization. As the angle approaches 0.65 rad, the nonlinear system begins to experience more oscillation before becoming unstable. However the linear model still predicts bounded motion, exposing the approximation’s failure far from the equilibrium. Thus, as expected, the linear model remains reliable only for small perturbations around the origin.
 
 ## Observer Design
 
@@ -117,7 +117,7 @@ L = \begin{pmatrix}
 \end{pmatrix}
 $$
 
-Simulations employing the linear observer-based control law evaluated both the linearized and full nonlinear pendulum-cart models for initial states ranging from [0.10, 0, 0, 0] to [0.62, 0, 0, 0], where \\( \phi = 0.62 \\) is the largest angular displacement before the nonlinear system loses stability under observer control. As the observer reconstructs the linearized dynamics, it does so with negligible error across the entire range of conditions, confirming high estimator veracity near the linearization point. In contrast, the observer's attempt to track the nonlinear dynamics reveals that it performs well for small deviations, but its performance begins to deteriorate as the initial angle departs from equilibrium. This once again reflects the inherent locality of the linear approximation.
+Simulations employing the linear observer-based control law evaluated both the linearized and full nonlinear pendulum-cart models for initial states ranging from \\( \phi = 0.1 \\) rad to \\( \phi = 0.65 \\) rad with the other states at zero. Notably, \\( \phi = 0.62 \\) is the largest angular displacement before the nonlinear system loses stability under observer control. As the observer reconstructs the linearized dynamics, it does so with negligible error across the entire range of conditions, confirming high estimator veracity near the linearization point. In contrast, the observer's attempt to track the nonlinear dynamics reveals that it performs well for small deviations, but its performance begins to deteriorate as the initial angle departs from equilibrium. This once again reflects the inherent locality of the linear approximation.
 
 ## Nonlinear Observer Compensator
 
@@ -128,7 +128,7 @@ $$
 $$
 
 
-This structure mirrors the nonlinear plant dynamics with an added correction term. Applying this nonlinear observer-based control law, simulations were run for the nonlinear pendulum-cart model for the same range of initial conditions—[0.10 rad, 0, 0, 0] to [0.62 rad, 0, 0, 0]. The results demonstrate markedly reduced state-estimation error and overall superior tracking performance relative to the earlier linear observer. Thus, the observer’s effectiveness across the entire operating range is confirmed.
+This structure mirrors the nonlinear plant dynamics with an added correction term. Applying this nonlinear observer-based control law, simulations were run for the nonlinear pendulum-cart model for the same range of initial conditions: \\( \phi = 0.1 \\) rad to \\( \phi = 0.65 \\) rad while the other states are at zero. The results demonstrate markedly reduced state-estimation error and overall superior tracking performance relative to the earlier linear observer. Thus, the observer’s effectiveness across the entire operating range is confirmed.
 
 ## Conclusion
 
