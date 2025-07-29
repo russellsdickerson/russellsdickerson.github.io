@@ -56,25 +56,44 @@ $$
 
 Jacobian matrices \\( A \\) and \\( B \\) are obtained analytically and confirmed via MATLAB symbolic computation.
 
+$$
+A = \begin{pmatrix}
+0 & 1 & 0 & 0 \\
+1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 1 \\
+-1 & 0 & 0 & 0
+\end{pmatrix}, \quad
+B = \begin{pmatrix}
+0 \\
+-1 \\
+0 \\
+3
+\end{pmatrix}
+$$
+
+
 ## Full-State Feedback Design
 
-Next, controllability is verified via rank analysis of the controllability matrix and a feedback gain \\( K \\) is computed using pole placement for the poles, \\( [-3, -2, -0.7+0.2i, -0.7-0.2i] \\):
+Next, controllability is verified via rank analysis of the controllability matrix. The desired poles for the system will be set to \\( [-3, -2, -0.7+0.2i, -0.7-0.2i] \\). Because these poles were placed so that their real components are negative, this implies that the eigenvalues of the matrix \\( A \\) are strictly negative, which further implies that the matrix \\( A \\) is 
+Hurwitz. Therefore, it can be concluded by Lyapunov’s Indirect Method, that the origin is ideed an asymptotically stable equilibrium point. Therefore, by using pole placement, a feedback gain \\( K \\) is now computed.
 
 $$
 K = \begin{bmatrix} -19.3 & -22.975 & -1.59 & -5.525 \end{bmatrix}
 $$
 
-The control law becomes:
+Therefore, the control law now becomes:
 
 $$
 \bar{\mu} = -Kx
 $$
 
-Simulations demonstrate stability up to an initial angle of \\( \phi = 0.65 \\) radians for the nonlinear system. Beyond this, divergence is observed due to the limitations of the linear controller.
+Simulations demonstrate that by applying the control law for both the linearized and nonlinear models at initial angles of 0.10 rad up to 0.65 rad with the other states at zero. At 0.10 rad, the linear model matches the nonlinear response, validating the local linearization. As the angle approaches 0.65 rad, the nonlinear system begins to experience more oscillation before becoming unstable. However the linear model still predicts bounded motion, exposing the approximation’s failure far from the equilibrium. Thus, as expected, the linear model remains reliable only for small perturbations around the origin.
 
 ## Observer Design
 
 Assuming only partial state availability \\( y = [\phi, \bar{s}]^T \\), a Luenberger observer is designed:
+
+First 
 
 $$
 \dot{\hat{x}} = A\hat{x} + B\bar{\mu} + L(y - \hat{y}), \quad \hat{y} = C\hat{x}, \quad \bar{\mu} = -K\hat{x}
