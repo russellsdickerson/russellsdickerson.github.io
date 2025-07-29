@@ -93,6 +93,20 @@ Simulations demonstrate that by applying the control law for both the linearized
   <img src="/images/inverted_pendulum_lin_fsf_0.65.gif" alt="lin_fsf_0.65" style="width: 45%; height: auto;">
 </div>
 
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+  <img src="/images/ip_lin_fsf_0.1.jpg" alt="lin_fsf_0.1.jpg" 
+       style="width: 45%; height: auto; border: 1px solid #ccc; border-radius: 6px; box-shadow: 2px 2px 6px rgba(0,0,0,0.1);">
+
+  <img src="/images/ip_lin_fsf_0.65.jpg" alt="lin_fsf_0.65" 
+       style="width: 45%; height: auto; border: 1px solid #ccc; border-radius: 6px; box-shadow: 2px 2px 6px rgba(0,0,0,0.1);">
+
+  <img src="/images/inverted_pendulum_lin_fsf_0.1.gif" alt="lin_fsf_0.1.gif" 
+       style="width: 45%; height: auto; border: 1px solid #ccc; border-radius: 6px; box-shadow: 2px 2px 6px rgba(0,0,0,0.1);">
+
+  <img src="/images/inverted_pendulum_lin_fsf_0.65.gif" alt="lin_fsf_0.65" 
+       style="width: 45%; height: auto; border: 1px solid #ccc; border-radius: 6px; box-shadow: 2px 2px 6px rgba(0,0,0,0.1);">
+</div>
+
 ## Observer Design
 
 First, assume only partial state availability \\( y = [\phi, \bar{s}]^T \\). Under these conditions, define \\( y = Cx \\) where \\( C \\) is as follows:
