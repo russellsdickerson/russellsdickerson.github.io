@@ -71,11 +71,9 @@ B = \begin{pmatrix}
 \end{pmatrix}
 $$
 
-
 ## Full-State Feedback Design
 
-Next, controllability is verified via rank analysis of the controllability matrix. The desired poles for the system will be set to \\( [-3, -2, -0.7+0.2i, -0.7-0.2i] \\). Because these poles were placed so that their real components are negative, this implies that the eigenvalues of the matrix \\( A \\) are strictly negative, which further implies that the matrix \\( A \\) is 
-Hurwitz. Therefore, it can be concluded by Lyapunov’s Indirect Method, that the origin is ideed an asymptotically stable equilibrium point. Therefore, by using pole placement, a feedback gain \\( K \\) is now computed.
+Next, controllability is verified via rank analysis of the controllability matrix. The desired poles for the system will be set to -3, -2, -0.7+0.2i, and -0.7-0.2i respectively. Because these poles were placed so that their real components are negative, this implies that the eigenvalues of the matrix \\( A \\) are strictly negative, which further implies that the matrix \\( A \\) is Hurwitz. Therefore, it can be concluded by Lyapunov’s Indirect Method, that the origin is ideed an asymptotically stable equilibrium point. Therefore, by using pole placement, a feedback gain \\( K \\) is now computed.
 
 $$
 K = \begin{bmatrix} -19.3 & -22.975 & -1.59 & -5.525 \end{bmatrix}
@@ -87,7 +85,7 @@ $$
 \bar{\mu} = -Kx
 $$
 
-Simulations demonstrate that by applying the control law for both the linearized and nonlinear models at initial angles of \\( \phi = 0.1 \\) rad up to \\( \phi = 0.65 \\) rad with the other states at zero. At 0.10 rad, the linear model matches the nonlinear response, validating the local linearization. As the angle approaches 0.65 rad, the nonlinear system begins to experience more oscillation before becoming unstable. However the linear model still predicts bounded motion, exposing the approximation’s failure far from the equilibrium. Thus, as expected, the linear model remains reliable only for small perturbations around the origin.
+Simulations demonstrate that by applying the control law for both the linearized and nonlinear models at initial angles of \\( \phi = 0.1 \\) rad up to \\( \phi = 0.65 \\) rad with the other states at zero. At \\( \phi = 0.1 \\) rad, the linear model matches the nonlinear response, validating the local linearization. As the angle approaches \\( \phi = 0.65 \\) rad, the nonlinear system begins to experience more oscillation before becoming unstable. However the linear model still predicts bounded motion, exposing the approximation’s failure far from the equilibrium. Thus, as expected, the linear model remains reliable only for small perturbations around the origin.
 
 ## Observer Design
 
@@ -128,7 +126,7 @@ $$
 $$
 
 
-This structure mirrors the nonlinear plant dynamics with an added correction term. Applying this nonlinear observer-based control law, simulations were run for the nonlinear pendulum-cart model for the same range of initial conditions: \\( \phi = 0.1 \\) rad to \\( \phi = 0.65 \\) rad while the other states are at zero. The results demonstrate markedly reduced state-estimation error and overall superior tracking performance relative to the earlier linear observer. Thus, the observer’s effectiveness across the entire operating range is confirmed.
+This structure mirrors the nonlinear plant dynamics with an added correction term. Applying this nonlinear observer-based control law, simulations were run for the nonlinear pendulum-cart model for the same range of initial conditions: \\( \phi = 0.1 \\) rad to \\( \phi = 0.65 \\) rad while the other states are at zero. These results demonstrate markedly reduced state-estimation error and overall superior tracking performance relative to the earlier linear observer. Thus, the observer’s effectiveness across the entire operating range is confirmed.
 
 ## Conclusion
 
