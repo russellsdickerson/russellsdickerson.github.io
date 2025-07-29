@@ -5,8 +5,8 @@ collection: research
 ---
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-    <img src="/images/Ant_Image_A.jpeg" alt="ant" style="max-width: 100%; width: 45%; height:45%;">
-    <img src="/images/Bio_13.jpg" alt="hair" style="max-width: 100%; width: 45%; height:45%;">
+    <img src="/images/Ant_Image_A.jpeg" alt="ant" style="max-width: 100%; width: 45%; height:auto;">
+    <img src="/images/Bio_13.jpg" alt="hair" style="max-width: 100%; width: 45%; height:auto;">
 </div>
 <p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 1: Saharan Silver Ant (left) and Hair Structure (right)</p>
 
