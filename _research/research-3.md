@@ -10,7 +10,7 @@ collection: research
   <img src="/images/Bio_13.jpg" alt="hair" style="width: 30%; height: auto;">
 </div>
 <p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0.5rem;">
-  Figure 1: Saharan Silver Ant (left) and Hair Structure (right)
+  Figure 1: Saharan Silver Ant (left and middle) and Hair Structure (right)
 </p>
 
 ## Overview
