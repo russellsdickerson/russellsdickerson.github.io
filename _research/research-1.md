@@ -20,7 +20,7 @@ The Saharan silver ant survives extreme desert temperatures through a unique the
 Inspired by the structure of the surface hairs, a soft robotic system was designed to mimic the thermoregulatory properties of the Saharan silver ant. The goal was to identify if the passive scattering of infrared radiation was translatable to soft robotic systems at scale. The idea behind the design is that these soft actuators could be arranged in a side-by-side pattern to create a thermal shield that maintains a cooler surface temperature than other structures and can actively change its shape depending on environmental conditions. This kind of shield would have implications for wearables or external surfaces of buildings or tents.
 
 <div style="text-align: center;">
-  <img src="/images/Bio_6.jpg" alt="actuator" style="max-width:100%; height:auto; width:75%;">
+  <img src="/images/Bio_6.jpg" alt="actuator" style="max-width:100%; height:auto; width:60%;">
 </div>
 <p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 2: Triangular Soft Robotic Actuator</p>
 
@@ -40,7 +40,7 @@ The thermal performance of each sample was evaluated under simulated solar loadi
     <img src="/images/Test_setup.png" alt="setup" style="max-width: 100%; width: 45%; height:auto;">
     <img src="/images/Bio_7.jpg" alt="test" style="max-width: 100%; width: 45%; height:auto;">
 </div>
-<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure : Diagram of Experimental Test Setup (left) and Actual Experimental Test Setup (right)</p>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 4: Diagram of Experimental Test Setup (left) and Actual Experimental Test Setup (right)</p>
 
 ## Results
 Temperature measurements showed that both inflated and deflated soft actuator configurations reduced internal temperatures by around 15°F compared to the control. The deflated triangular geometry also had a slower temperature rise. This suggests improved radiative scattering or enhanced emissivity. However, comparisons between inflated and deflated states should be interpreted cautiously, as the increased internal air volume in the inflated state may introduce insulative effects unrelated to surface geometry. Additionally, future experiments will need to determine the effect caused by the presence vs. lack of material. Despite this, the results support the hypothesis that geometric structuring alone could passively reduce thermal loading via broadband reflection and angle-dependent scattering.
