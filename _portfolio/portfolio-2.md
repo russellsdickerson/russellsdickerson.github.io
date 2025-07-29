@@ -91,15 +91,33 @@ Simulations demonstrate that by applying the control law for both the linearized
 
 ## Observer Design
 
-Assuming only partial state availability \\( y = [\phi, \bar{s}]^T \\), a Luenberger observer is designed:
+First, assume only partial state availability \\( y = [\phi, \bar{s}]^T \\). Under these conditions, define \\( y = Cx \\) where \\( C \\) is as follows:
 
-First 
+$$
+C = \begin{pmatrix}
+1 & 0 & 0 & 0 \\
+0 & 0 & 1 & 0
+\end{pmatrix}
+$$
+
+Next, observability is verified via rank analysis of the observability matrix. A linear observer can then be constructed as seen below:
 
 $$
 \dot{\hat{x}} = A\hat{x} + B\bar{\mu} + L(y - \hat{y}), \quad \hat{y} = C\hat{x}, \quad \bar{\mu} = -K\hat{x}
 $$
 
-Observer poles are placed significantly faster than the system poles to ensure rapid convergence. This linear observer performs well for small deviations but deteriorates with increased nonlinearity.
+Using poles placement, observer poles are placed 5x faster than the previous system poles to ensure rapid convergence. This results in:
+
+$$
+L = \begin{pmatrix}
+13.3460 & 3.5943 \\
+32.7189 & 49.3415 \\
+-0.9738 & 18.6540 \\
+-6.5188 & 54.0748
+\end{pmatrix}
+$$
+
+Simulations employing the linear observer-based control law (Eq. 7) evaluated both the linearized and full nonlinear pendulum-cart models for initial states ranging from [0.10, 0, 0, 0] to [0.62, 0, 0, 0], where \\( \phi = 0.62 \\) is the largest angular displacement before the nonlinear system loses stability under observer control. As the observer reconstructs the linearized dynamics, it does so with negligible error across the entire range of conditions, confirming high estimator veracity near the linearization point. In contrast, the observer's attempt to track the nonlinear dynamics reveals that it performs well for small deviations, but its performance begins to deteriorate as the initial angle departs from equilibrium. This once again reflects the inherent locality of the linear approximation.
 
 ## Nonlinear Observer Compensator
 
