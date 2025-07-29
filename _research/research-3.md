@@ -6,7 +6,7 @@ collection: research
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
   <img src="/images/Ant_Image_A.jpeg" alt="antA" style="width: 30%; height: auto;">
-  <img src="/images/Ant_Image_B.jpeg" alt="antB" style="width: 30%; height: auto;">
+  <img src="/images/Ant_Image_B.jpg" alt="antB" style="width: 30%; height: auto;">
   <img src="/images/Bio_13.jpg" alt="hair" style="width: 30%; height: auto;">
 </div>
 <p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0.5rem;">
