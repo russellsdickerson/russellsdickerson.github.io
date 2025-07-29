@@ -1,6 +1,6 @@
 ---
 title: "Stability Guarantees for Variable Impedance Control (In Progress)"
-excerpt: "Coming Soon<br/><img src='' alt='placeholder' style='max-width:100%; height:auto; width:50%;'>"
+excerpt: "Coming Soon<br/>"
 collection: research
 ---
 
