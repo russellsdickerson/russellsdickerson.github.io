@@ -3,7 +3,6 @@ title: "Nonlinear Control of an Inverted Pendulum on a Cart"
 excerpt: "January 2025 - May 2025<br/><img src='/images/inverted_pendulum_nlonls_oc_0.62.gif' alt='inverted_pendulum' style='max-width:100%; height:auto; width:450px;'>"
 collection: portfolio
 ---
-
 ## Overview
 
 This project investigates the stabilization of an inverted pendulum on a cart using both linear and nonlinear control techniques. Specifically, it is comprised of modeling, linearization, full-state feedback design, observer-based compensator implementation, and system simulation.
@@ -86,6 +85,13 @@ $$
 $$
 
 Simulations demonstrate that by applying the control law for both the linearized and nonlinear models at initial angles of \\( \phi = 0.1 \\) rad up to \\( \phi = 0.65 \\) rad with the other states at zero. At \\( \phi = 0.1 \\) rad, the linear model matches the nonlinear response, validating the local linearization. As the angle approaches \\( \phi = 0.65 \\) rad, the nonlinear system begins to experience more oscillation before becoming unstable. However the linear model still predicts bounded motion, exposing the approximation’s failure far from the equilibrium. Thus, as expected, the linear model remains reliable only for small perturbations around the origin.
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+  <img src="/images/ip_lin_fsf_0.1.jpg" alt="lin_fsf_0.1.jpg" style="width: 45%; height: auto;">
+  <img src="/images/inverted_pendulum_lin_fsf_0.1.gif.jpg" alt="lin_fsf_0.1.gif" style="width: 45%; height: auto;">
+  <img src="/images/ip_lin_fsf_0.65.jpg" alt="lin_fsf_0.65" style="width: 45%; height: auto;">
+  <img src="/images/inverted_pendulum_lin_fsf_0.65.gif" alt="lin_fsf_0.65" style="width: 45%; height: auto;">
+</div>
 
 ## Observer Design
 
