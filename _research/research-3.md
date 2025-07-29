@@ -5,10 +5,13 @@ collection: research
 ---
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-    <img src="/images/Ant_Image_A.jpeg" alt="ant" style="max-width: 100%; width: 45%; height:auto;">
-    <img src="/images/Bio_13.jpg" alt="hair" style="max-width: 100%; width: 45%; height:auto;">
+  <img src="/images/Ant_Image_A.jpeg" alt="antA" style="width: 30%; height: auto;">
+  <img src="/images/Ant_Image_B.jpeg" alt="antB" style="width: 30%; height: auto;">
+  <img src="/images/Bio_13.jpg" alt="hair" style="width: 30%; height: auto;">
 </div>
-<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 1: Saharan Silver Ant (left) and Hair Structure (right)</p>
+<p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0.5rem;">
+  Figure 1: Saharan Silver Ant (left) and Hair Structure (right)
+</p>
 
 ## Overview
 The Saharan silver ant survives extreme desert temperatures through a unique thermoregulatory adaptation: dense arrays of triangular hairs on its dorsal and lateral surfaces. These hairs are characterized by corrugated triangular cross-sections, which enhance broadband reflectivity in the visible and near-infrared (NIR) via Mie scattering and total internal reflection. The result is reduced solar heat absorption. In the mid-infrared (MIR), where thermal emission dominates, the hairs act as a refractive index layer to boost emissivity and radiative heat loss. Furthermore, the absence of hairs on the ventral side limits heat gain from the ground. Together, these mechanisms enable thermal resilience in harsh environments and inspire scalable, passive cooling strategies. This study explores how such geometric principles can be translated into soft robotic systems by modulating actuator surface shape to reduce thermal load.
