@@ -106,7 +106,7 @@ $$
 \dot{\hat{x}} = A\hat{x} + B\bar{\mu} + L(y - \hat{y}), \quad \hat{y} = C\hat{x}, \quad \bar{\mu} = -K\hat{x}
 $$
 
-Using poles placement, observer poles are placed 5x faster than the previous system poles to ensure rapid convergence. This results in:
+Using pole placement, observer poles are placed 5x faster than the previous system poles to ensure rapid convergence. This results in:
 
 $$
 L = \begin{pmatrix}
@@ -117,7 +117,7 @@ L = \begin{pmatrix}
 \end{pmatrix}
 $$
 
-Simulations employing the linear observer-based control law (Eq. 7) evaluated both the linearized and full nonlinear pendulum-cart models for initial states ranging from [0.10, 0, 0, 0] to [0.62, 0, 0, 0], where \\( \phi = 0.62 \\) is the largest angular displacement before the nonlinear system loses stability under observer control. As the observer reconstructs the linearized dynamics, it does so with negligible error across the entire range of conditions, confirming high estimator veracity near the linearization point. In contrast, the observer's attempt to track the nonlinear dynamics reveals that it performs well for small deviations, but its performance begins to deteriorate as the initial angle departs from equilibrium. This once again reflects the inherent locality of the linear approximation.
+Simulations employing the linear observer-based control law evaluated both the linearized and full nonlinear pendulum-cart models for initial states ranging from [0.10, 0, 0, 0] to [0.62, 0, 0, 0], where \\( \phi = 0.62 \\) is the largest angular displacement before the nonlinear system loses stability under observer control. As the observer reconstructs the linearized dynamics, it does so with negligible error across the entire range of conditions, confirming high estimator veracity near the linearization point. In contrast, the observer's attempt to track the nonlinear dynamics reveals that it performs well for small deviations, but its performance begins to deteriorate as the initial angle departs from equilibrium. This once again reflects the inherent locality of the linear approximation.
 
 ## Nonlinear Observer Compensator
 
@@ -127,21 +127,13 @@ $$
 \dot{\hat{x}} = f(\hat{x}, \bar{\mu}) + L(y - \hat{y}), \quad \hat{y} = C\hat{x}, \quad \bar{\mu} = -K\hat{x}
 $$
 
-This structure mirrors the nonlinear plant dynamics with an added correction term. Linearization around the equilibrium confirms that the origin remains asymptotically stable under this observer.
 
-Simulations confirm improved performance and reduced estimation error across the tested initial conditions:
-
-| Initial Condition        | Linear Observer Error | Nonlinear Observer Error |
-|--------------------------|-----------------------|---------------------------|
-| \\( \phi = 0.1 \\)          | Low                   | Very low                  |
-| \\( \phi = 0.5 \\)          | Moderate              | Low                       |
-| \\( \phi = 0.62 \\)         | High                  | Moderate                  |
+This structure mirrors the nonlinear plant dynamics with an added correction term. Applying this nonlinear observer-based control law, simulations were run for the nonlinear pendulum-cart model for the same range of initial conditions—[0.10 rad, 0, 0, 0] to [0.62 rad, 0, 0, 0]. The results demonstrate markedly reduced state-estimation error and overall superior tracking performance relative to the earlier linear observer. Thus, the observer’s effectiveness across the entire operating range is confirmed.
 
 ## Conclusion
 
 This project illustrates the efficacy and limitations of linear and nonlinear control strategies for an inherently unstable system. Key takeaways include:
 
-- The linear controller stabilizes the system up to \\( \phi = 0.65 \\) radians.
 - The linear observer fails to capture nonlinear dynamics far from the origin.
 - The nonlinear observer significantly improves robustness in estimating the system state under larger deviations.
 
