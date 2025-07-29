@@ -86,25 +86,11 @@ $$
 
 Simulations demonstrate that by applying the control law for both the linearized and nonlinear models at initial angles of \\( \phi = 0.1 \\) rad up to \\( \phi = 0.65 \\) rad with the other states at zero. At \\( \phi = 0.1 \\) rad, the linear model matches the nonlinear response, validating the local linearization. As the angle approaches \\( \phi = 0.65 \\) rad, the nonlinear system begins to experience more oscillation before becoming unstable. However the linear model still predicts bounded motion, exposing the approximation’s failure far from the equilibrium. Thus, as expected, the linear model remains reliable only for small perturbations around the origin.
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
-  <img src="/images/ip_lin_fsf_0.1.jpg" alt="lin_fsf_0.1.jpg" style="width: 45%; height: auto;">
-  <img src="/images/ip_lin_fsf_0.65.jpg" alt="lin_fsf_0.65" style="width: 45%; height: auto;">
-  <img src="/images/inverted_pendulum_lin_fsf_0.1.gif" alt="lin_fsf_0.1.gif" style="width: 45%; height: auto;">
-  <img src="/images/inverted_pendulum_lin_fsf_0.65.gif" alt="lin_fsf_0.65" style="width: 45%; height: auto;">
-</div>
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
-  <img src="/images/ip_lin_fsf_0.1.jpg" alt="lin_fsf_0.1.jpg" 
-       style="width: 45%; height: auto; border: 1px solid #ccc; border-radius: 6px; box-shadow: 2px 2px 6px rgba(0,0,0,0.1);">
-
-  <img src="/images/ip_lin_fsf_0.65.jpg" alt="lin_fsf_0.65" 
-       style="width: 45%; height: auto; border: 1px solid #ccc; border-radius: 6px; box-shadow: 2px 2px 6px rgba(0,0,0,0.1);">
-
-  <img src="/images/inverted_pendulum_lin_fsf_0.1.gif" alt="lin_fsf_0.1.gif" 
-       style="width: 45%; height: auto; border: 1px solid #ccc; border-radius: 6px; box-shadow: 2px 2px 6px rgba(0,0,0,0.1);">
-
-  <img src="/images/inverted_pendulum_lin_fsf_0.65.gif" alt="lin_fsf_0.65" 
-       style="width: 45%; height: auto; border: 1px solid #ccc; border-radius: 6px; box-shadow: 2px 2px 6px rgba(0,0,0,0.1);">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem;">
+  <img src="/images/ip_lin_fsf_0.1.jpg" alt="lin_fsf_0.1.jpg" style="width: 47%; height: auto;">
+  <img src="/images/ip_lin_fsf_0.65.jpg" alt="lin_fsf_0.65" style="width: 47%; height: auto;">
+  <img src="/images/inverted_pendulum_lin_fsf_0.1.gif" alt="lin_fsf_0.1.gif" style="width: 47%; height: auto;">
+  <img src="/images/inverted_pendulum_lin_fsf_0.65.gif" alt="lin_fsf_0.65" style="width: 47%; height: auto;">
 </div>
 
 ## Observer Design
