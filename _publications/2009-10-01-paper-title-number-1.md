@@ -3,7 +3,7 @@ title: "An Actuated Material: The Fabric-based Pouch Grid Actuator"
 collection: publications
 category: manuscripts
 permalink: <!--/publication/2009-10-01-paper-title-number-1-->
-excerpt: 'This paper is currently in progress. I will update at a later date.'
+excerpt: 'This paper is currently in progress. I will update it here at a later date.'
 date: 2025-10-20
 venue: 'Target Journal: Science Robotics'
 
