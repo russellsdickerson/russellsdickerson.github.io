@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Russell S. Dickerson"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Russell S. Dickerson"
 description              : &description "Graduate Student in Mechanical Engineering at the University of Michigan"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Russell S. Dickerson"
   pronouns         : "He/Him"
-  bio              : "Graduate Researcher in Mechanical Engineering at the University of Michigan -- Design, Modeling, and Control of Soft Robotic Systems"
+  bio              : "Graduate Researcher in Mechanical Engineering at the University of Michigan | Design, Modeling, and Control of Soft Robotic Systems"
   location         : "Ann Arbor, MI"
   employer         : "University of Michigan"
   uri              : # URL
