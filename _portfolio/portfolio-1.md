@@ -1,6 +1,6 @@
 ---
 title: "Remote-Controlled Electric Racecar"
-excerpt: "January 2019 - May 2019<br/><img src='/images/RC_Car.jpg' alt='racecar_design' style='max-width:100%; height:auto; width:450px;'><img src='/images/wheel_spin.gif' alt='wheel_spin' style='max-width: 100%; width: 450px; height:auto;'>"
+excerpt: "January 2019 - May 2019<br/><img src='/images/RC_Car.jpg' alt='racecar_design' style='max-width:100%; height:auto; width:450px;'>"
 collection: portfolio
 ---
 
