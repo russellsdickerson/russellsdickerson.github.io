@@ -14,4 +14,4 @@ Previously, I conducted research in the EMBiR Lab on passive thermal regulation 
 
 My main research interests are in the design, modeling, and control of soft robotic systems. Keeping this in mind, my long-term goal is to advance the integration of these principles, creating unified, robust, and intelligent systems. My hope is that this will lead to the widespread adoption of soft systems in our daily life.
 
-Outside of work and research, I enjoy reading papers and marathon training in my spare time.
+Outside of work and research, I enjoy reading and marathon training in my spare time.
