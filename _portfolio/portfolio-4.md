@@ -17,7 +17,7 @@ In collaboration with the Travis County Medical Examiner’s Office, I worked wi
 The device was engineered to satisfy the following baseline requirements: resemble a familiar dog toy to encourage interaction, record bite data over a multi-minute window, support export of recorded data in a standard format, remain compact and low-cost for small-scale testing, provide a pathway for future empirical validation with physical prototypes. The proposed form factor was a bone-shaped device with a central rod as the primary bite target and two outer endcaps to house electronics. The rod enclosed a pressurized polyethylene bladder designed to deform slightly under bite force. A commercial rubber toy was used as a protective sleeve, and the endcaps were 3D printed using ABS plastic for mechanical protection.
 
 <div style="text-align: center;">
-    <img src="/images/DogBiteExploded.jpg" alt="exploded_view" style="max-width:100%; height:auto; width:90%; justify-content: center;">
+    <img src="/images/DogBiteExploded.JPG" alt="exploded_view" style="max-width:100%; height:auto; width:90%; justify-content: center;">
 </div>
 <p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 2: Exploded View of the Design</p>
 
