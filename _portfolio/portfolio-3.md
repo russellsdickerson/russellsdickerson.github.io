@@ -1,9 +1,6 @@
 ---
 title: "Low-Cost Icing CoreXY 3D Printer"
-excerpt: "August 2019 - December 2019<br/><div style='display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;'>
-  <img src='/images/heart_print.jpg' alt='Heart_Print' style='width: 45%; height: auto;'>
-  <img src='/images/star_print.jpg' alt='Star_Print' style='width: 45%; height: auto;'>
-</div>"
+excerpt: "August 2019 - December 2019<br/><img src='/images/star_print.jpg' alt='Image of print' style='max-width:100%; height:auto; width:450px;'>"
 collection: portfolio
 ---
 <br/>
