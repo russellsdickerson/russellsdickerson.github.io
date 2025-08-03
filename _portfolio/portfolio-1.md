@@ -34,7 +34,7 @@ The drivetrain was rear-wheel drive, implemented using a custom gear train with 
 A rack-and-pinion mechanism was developed to enable active front-wheel steering. The servo-driven rack actuates two pinned steering linkages affixed to the chassis. Due to the complexity of the geometry, all steering components were 3D printed, and metal pins were machined for durability. Multiple iterations were required to ensure proper meshing of gear teeth and mechanical tolerances. Additionally, the minimum turning radius was analytically derived by geometrically modeling the chassis and applying a maximum steering angle of 45°. This confirmed that the custom steering design met maneuverability targets for the constrained racetrack layout.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-    <img src="/images/wheel_spin.gif" alt="wheel_spin" style="max-width: 100%; width: 45%; height:auto;">
+    <img src="/images/Wheel_Spin.gif" alt="wheel_spin" style="max-width: 100%; width: 45%; height:auto;">
     <img src="/images/wheel_turn.gif" alt="ME_3" style="max-width: 100%; width: 45%; height:auto;">
 </div>
 <p style="text-align: center; font-size: 0.9em; color: #888; margin-top: 0;">Figure 3: Demonstration of Rear-Wheel Spin (left) and Steering Angle (right)</p>
