@@ -18,7 +18,7 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -124,6 +124,7 @@
 
   .archive__item-title {
     margin-top: 0.5em;
+    color: #007acc;
     font-size: $type-size-5;
   }
 
