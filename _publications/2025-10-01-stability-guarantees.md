@@ -1,9 +1,9 @@
 ---
-title: "Stability Guarantees for Variable Impedance Control of a Powered Ankle-Knee Prosthesis (In Progress)"
+title: "Stability Guarantees for Variable Impedance Control of a Powered Ankle-Knee Prosthesis"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-10-20-paper-title-number-2
-excerpt: ''
+excerpt: 'In Progress'
 date: 2025-10-20
 venue: 'TBD'
 
