@@ -17,6 +17,6 @@ My research interests include the design, modeling, and control of soft robotic 
 Email: [rsdckrsn@umich.edu](mailto:rsdckrsn@umich.edu)
 
 External Links:
-<a href="https://www.freelaboratory.org/">FREE Lab</a>
-<a href="https://locolab.robotics.umich.edu/">Locomotor Control Systems Lab</a>
-<a href="https://www.bd.com/en-us">Becton Dickinson</a>
+<a href="https://www.freelaboratory.org/">FREE Lab</a><br/>
+<a href="https://locolab.robotics.umich.edu/">Locomotor Control Systems Lab</a><br/>
+<a href="https://www.bd.com/en-us">Becton Dickinson</a><br/>
