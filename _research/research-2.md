@@ -1,7 +1,9 @@
 ---
 title: "Stability Guarantees for Variable Impedance Control (In Progress)"
-excerpt: "April 2025 - Present<br/><img src='/images/coming_soon.png' alt='coming_soon' style='max-width:100%; height:auto; width:25%;'>"
+excerpt: "April 2025 - Present"
 collection: research
+header:
+  teaser: "coming_soon.png"
 ---
 
 This article is coming soon. I will update it here when it is ready.

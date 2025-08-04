@@ -1,7 +1,9 @@
 ---
 title: "Bio-Inspired Passive Thermal Regulation in Soft Actuators"
-excerpt: "Jan 2024 – May 2024<br/><img src='/images/Bio_6.jpg' alt='actuator' style='max-width:100%; height:auto; width:25%;'>"
+excerpt: "Jan 2024 – May 2024"
 collection: research
+header:
+  teaser: "Bio_6.jpg"
 ---
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">

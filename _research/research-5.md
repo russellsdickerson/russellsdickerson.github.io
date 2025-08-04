@@ -1,7 +1,9 @@
 ---
 title: "Dog Bite Force Measurement Device"
-excerpt: "January 2020 - May 2020<br/><img src='/images/DogBiteXSection.png' alt='mage of Dog Bite Cross-section' style='max-width:100%; height:auto; width:450px;'>"
+excerpt: "January 2020 - May 2020"
 collection: research
+header:
+  teaser: "DogBiteXSection.png"
 ---
 
 <br/>
