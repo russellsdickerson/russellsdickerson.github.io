@@ -243,3 +243,36 @@
     }
   }
 }
+
+.research-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.research-grid-item {
+  width: 23%;
+  background: white;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.research-grid-item:hover {
+  transform: translateY(-4px);
+}
+
+@media (max-width: 1024px) {
+  .research-grid-item {
+    width: 48%;
+  }
+}
+
+@media (max-width: 640px) {
+  .research-grid-item {
+    width: 100%;
+  }
+}
