@@ -8,10 +8,10 @@ redirect_from:
 ---
 Hello! Welcome to my website.
 
-My name is Russell and I just graduated with a masters degree in mechanical engineering from the University of Michigan. I am now working as a graduate researcher in two research groups at the university. In the FREE lab, I am being advised by Prof. Daniel Bruder, where I am helping to design, model, and fabricate grid-based soft robotic actuators. In the Locomotor Control Systems Lab, I am being advised by Prof. Robert Gregg, where I am investigating behavioral properties of time-varying impedance control for powered prosthetic limbs.
+My name is Russell and I am a graduate researcher in the mechanical engineering department at the University of Michigan. In the FREE lab, I am being advised by Prof. Daniel Bruder, where I am helping to design, model, and fabricate grid-based soft robotic actuators. In the Locomotor Control Systems Lab, I am being advised by Prof. Robert Gregg, where I am investigating behavioral properties of time-varying impedance control for powered prosthetic limbs. Prior to these roles, I recieved a M.Sc. in mechanical engineering from the University of Michigan and a B.Sc. in mechanical engineering from the University of Texas at Austin.
 
-Previously, I conducted research in the EMBiR Lab on passive thermal regulation in bio-inspired soft actuators and have contributed to materials research involving bio-based fibrous composites and fabric sensing. Moreover, my academic research is also complemented by industry research at Becton Dickinson, where I worked on mechanical test method development for a specific medical device product.
+Previously, I have been fortunate to be advised by Prof. Talia Moore in the EMBiR Lab at the University of Michigan and the Renewable Fiber & Composite Lab at the University of Texas at Austin. Moreover, my academic research is also complemented by one year of industry medical device research at Becton Dickinson, where I developed new mechanical testing methods for widely-used blood collection products.
 
-My main research interests are in the design, modeling, and control of soft robotic systems. Keeping this in mind, my long-term goal is to advance the integration of these principles, creating unified, robust, and intelligent systems. My hope is that this will lead to the widespread adoption of soft systems in our daily life.
+My research interests include the design, modeling, and control of soft robotic systems in general and for medical applications. Keeping this in mind, my goal is to advance the integration of these principles, creating unified, robust, and intelligent systems that open the way for the widespread adoption of soft systems throughout our daily life.
 
-Outside of work and research, I enjoy reading and marathon training in my spare time.
+Email: rsdckrsn@umich.edu
