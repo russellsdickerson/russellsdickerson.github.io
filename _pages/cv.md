@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
+
 Education
 ======
 **University of Michigan, Ann Arbor, MI**  
