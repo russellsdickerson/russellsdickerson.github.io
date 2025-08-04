@@ -23,7 +23,7 @@ Research Experience
 *Graduate Student Researcher*<span style="float:right; font-weight:normal"><em>Apr 2025 – Present</em></span>  
 *Advisor: Prof. Daniel Bruder*
   - Designed, modeled, and fabricated modular, grid-based, soft robotic actuators for compliant systems, investigating their
- mechanical behavior, manufacturability, and applicability in various compliant actuation systems.
+ mechanical behavior, manufacturability, and applicability.
 
 **Locomotor Control Systems Lab, University of Michigan**  
 *Graduate Student Researcher*<span style="float:right; font-weight:normal"><em>Apr 2025 – Present</em></span>  
