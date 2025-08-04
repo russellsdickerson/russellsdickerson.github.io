@@ -12,30 +12,15 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="research-grid-item" style="width: 23%; margin: 1%; box-shadow: 0 1px 4px rgba(0,0,0,0.1); padding: 1rem; border-radius: 6px; background: white;">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    {% if teaser %}
-    <div class="archive__item-teaser" style="text-align: center; margin-bottom: 0.5rem;">
-      <img src="{{ teaser | prepend: '/images/' | prepend: base_path }}" alt="" style="width: 100%; border-radius: 4px;">
-    </div>
+<div class="research-card">
+  <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: inherit;">
+    {% if post.header.teaser %}
+    <img src="{{ post.header.teaser | prepend: '/images/' | prepend: base_path }}" alt="" class="research-card-img">
     {% endif %}
-
-    <h2 class="archive__item-title" itemprop="headline" style="font-size: 1.05rem;">
-      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-    </h2>
-
-    {% if post.date %}
-    <p class="page__date" style="font-size: 0.85rem; color: #777;">
-      {{ post.date | date: "%B %Y" }}
-    </p>
-    {% endif %}
-
+    <h3 class="research-card-title">{{ post.title }}</h3>
+    <p class="research-card-date">{{ post.date | date: "%B %Y" }}</p>
     {% if post.excerpt %}
-    <p class="archive__item-excerpt" itemprop="description" style="font-size: 0.9rem;">
-      {{ post.excerpt | markdownify }}
-    </p>
+    <p class="research-card-desc">{{ post.excerpt | markdownify | strip_html }}</p>
     {% endif %}
-    
-  </article>
+  </a>
 </div>
