@@ -1,12 +1,9 @@
-<div class="research-card">
-  <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: inherit;">
+<div class="research-flat-tile">
+  <a href="{{ post.url | relative_url }}" style="text-decoration: none;">
     {% if post.header.teaser %}
-    <img src="{{ post.header.teaser | prepend: '/images/' | prepend: base_path }}" alt="" class="research-card-img">
+      <img src="{{ post.header.teaser | prepend: '/images/' | prepend: base_path }}" alt="{{ post.title }}" class="research-grid-img">
     {% endif %}
-    <h3 class="research-card-title">{{ post.title }}</h3>
-    <p class="research-card-date">{{ post.date | date: "%B %Y" }}</p>
-    {% if post.excerpt %}
-    <p class="research-card-desc">{{ post.excerpt | markdownify | strip_html }}</p>
-    {% endif %}
+    <h3 class="research-grid-title">{{ post.title }}</h3>
+    <p class="research-grid-desc">{{ post.excerpt | markdownify | strip_html }}</p>
   </a>
 </div>
