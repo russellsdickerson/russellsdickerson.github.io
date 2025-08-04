@@ -1,5 +1,5 @@
 ---
-title: "Stability Guarantees for Variable Impedance Control (In Progress)"
+title: "Stability Guarantees for Variable Impedance Control of a Powered Ankle-Knee Prosthesis(In Progress)"
 excerpt: "April 2025 - Present"
 collection: research
 header:

@@ -3,7 +3,7 @@ title: "An Actuated Material: The Fabric-based Pouch Grid Actuator"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-10-20-paper-title-number-1
-excerpt: 'This paper is currently in progress. I will update it here at a later date.'
+excerpt: ''
 date: 2025-10-20
 venue: 'TBD'
 
