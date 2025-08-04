@@ -3,7 +3,7 @@ title: "Stability Guarantees for Variable Impedance Control of a Powered Ankle-K
 collection: publications
 category: manuscripts
 permalink: /publication/2025-10-20-paper-title-number-2
-excerpt: 'In Progress'
+excerpt: ''
 date: 2025-10-20
 venue: 'TBD'
 
