@@ -1,6 +1,6 @@
 ---
 title: "Stability Guarantees for Variable Impedance Control (In Progress)"
-excerpt: "Coming Soon<br/>"
+excerpt: "April 2025 - Present<br/>"
 collection: research
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Fabric-Based Pouch Grid Actuators (In Progress)"
-excerpt: "Coming Soon<br/>"
+excerpt: "April 2025 - Present<br/>"
 collection: research
 ---
 

@@ -14,8 +14,8 @@ main:
   #- title: "Projects"
   #  url: /projects/    
     
-  - title: "Past Projects"
-    url: /portfolio/
+  #- title: "Past Projects"
+  #  url: /portfolio/
 
   - title: "Publications"
     url: /publications/
