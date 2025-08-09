@@ -22,8 +22,7 @@ Research Experience
 **FREE Lab, University of Michigan**   
 *Graduate Student Researcher*<span style="float:right; font-weight:normal"><em>Apr 2025 – Present</em></span>  
 *Advisor: Prof. Daniel Bruder*
-  - Designed, modeled, and fabricated modular, grid-based, soft robotic actuators for compliant systems, investigating their
- mechanical behavior, manufacturability, and applicability.
+  - Designed, modeled, and fabricated modular, grid-based, soft robotic actuators, investigating their mechanical behavior, manufacturability, scalability, and functionality.
 
 **Locomotor Control Systems Lab, University of Michigan**  
 *Graduate Student Researcher*<span style="float:right; font-weight:normal"><em>Apr 2025 – Present</em></span>  
@@ -36,15 +35,13 @@ Research Experience
 *Product Development Engineer I / R&D Intern*<span style="float:right; font-weight:normal"><em>Jun 2024 – Present</em></span>
   * Proposed and validated a novel mechanical, destructive test method for a BD product line, reducing sample sizes by 33%
  and improving testing efficiency; results presented at an R&D symposium are under consideration for official adoption.
-  * Conducted an extensive literature review on the current state of blood processing.
-  * Authored technical reports evaluating product feasibility and stability, incorporating statistical analysis of mechanical test
- data to identify trends and ensure compliance with specifications.
+  * Conducted an extensive literature review on the current state of blood processing methods.
+  * Authored technical reports evaluating product feasibility and stability, incorporating statistical analysis of mechanical test data to identify trends and ensure compliance with specifications.
 
 **EMBiR Lab, University of Michigan**  
 *Graduate Student Researcher*<span style="float:right; font-weight:normal"><em>Jan 2024 – May 2024</em></span>  
 *Advisor: Prof. Talia Y. Moore*  
-  * Designed and fabricated a Saharan silver ant–inspired, soft robotic actuator that possesses wave scattering properties and
- demonstrates a 15°F improved passive thermal regulation compared to the control under IR exposure.
+  * Designed and fabricated a Saharan silver ant–inspired, soft robotic actuator that possesses wave scattering properties and demonstrates a 15°F improved passive thermal regulation compared to the control under IR exposure.
 
 **Renewable Fiber & Composite Lab, University of Texas at Austin**  
 *Undergraduate Research Assistant*<span style="float:right; font-weight:normal"><em>Apr 2019 – Aug 2019</em></span>  
@@ -59,6 +56,9 @@ Publications
 
 Industry Experience
 ======
+**TSMC**  
+*Intelligent Manufacturing Engineer*<span style="float:right; font-weight:normal"><em>October 2025</em></span>
+
 **WTA, Inc.**  
 *Project Engineer*<span style="float:right; font-weight:normal"><em>Apr 2021 – Jul 2023</em></span>  
   * Led multi-million-dollar mechanical/electrical design projects of mission-critical systems for Verizon and Baylor Scott & White data centers, improving operational stability, achieving a 33% reduction in project lead times.
@@ -69,9 +69,9 @@ Industry Experience
 
 Skills
 ======
-* **CAD Software**: SolidWorks, OnShape, AutoCAD, Simulink  
-* **Programming**: MATLAB, Python, Arduino, ROS, Control  
-* **Prototyping**: 3D Printing, Laser Cutting, Soldering, Mold Casting  
+* **CAD Software**: SolidWorks, OnShape, AutoCAD, Ansys, Simulink  
+* **Programming**: MATLAB, Python, Arduino, ROS, PID  
+* **Prototyping**: 3D Printing, Laser Cutting, Soldering, Mold Casting, Heat Sealing  
 * **Data/Testing**: MySQL, Excel, Minitab, Design of Experiments  
 * **Communication**: Scientific Writing, Poster Design, Team Collaboration
 
