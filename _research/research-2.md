@@ -3,7 +3,7 @@ title: "Stability Guarantees for Variable Impedance Control of a Powered Ankle-K
 excerpt: "April 2025 - Present"
 collection: research
 header:
-  teaser: "/images/LCM.jpg"
+  teaser: "LCM.jpg"
 ---
 
 ## Overview

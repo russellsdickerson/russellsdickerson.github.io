@@ -3,7 +3,7 @@ title: "Fabric-Based Pouch Grid Actuators (In Progress)"
 excerpt: "April 2025 - Present"
 collection: research
 header:
-  teaser: "/images/FREE.png"
+  teaser: "FREE.png"
 ---
 
 ## Overview
