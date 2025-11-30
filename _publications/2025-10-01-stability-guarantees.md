@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-10-20-paper-title-number-2
 excerpt: ''
-date: 2025-10-20
+date: 2026-10-20
 venue: 'TBD'
 
 ---
