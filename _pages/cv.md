@@ -28,7 +28,7 @@ Research Experience
 **FREE Lab, University of Michigan**   
 *FabricLEGO: An Actuated Fabric Building Platform for Constructing Scalable and Versatile Soft Robots*<span style="float:right; font-weight:normal"><em>Apr 2025 – Present</em></span>  
 *Advisor: Prof. Daniel Bruder*
-  * Designed, modeled, and fabricated a grid-based soft robotic actuator platform, enabling scalable, multi-mode pneumatic actuation and facilitating accessibility for subsequent research in soft robotics
+  * Designed, modeled, and fabricated a grid-based soft robotic actuator platform, enabling scalable, multi-mode pneumatic actuation and facilitating accessibility for subsequent research in soft robotics.
 
 **Locomotor Control Systems Lab, University of Michigan**  
 *Lyapunov-Based Stability Guarantees for Variable Impedance Control of Powered Prosthetic Legs*<span style="float:right; font-weight:normal"><em>Apr 2025 – Present</em></span>  
@@ -46,7 +46,7 @@ Research Experience
 **EMBiR Lab, University of Michigan**  
 *A Bio-Inspired Soft Robotic Actuator for Passive Infrared Thermal Regulation*<span style="float:right; font-weight:normal"><em>Jan 2024 – May 2024</em></span>  
 *Advisor: Prof. Talia Y. Moore*  
-  * esigned and fabricated a Saharan silver ant–inspired, soft robotic actuator that possesses wave scattering properties and demonstrates a 15°F improved passive thermal regulation under IR exposure.
+  * Designed and fabricated a Saharan silver ant–inspired, soft robotic actuator that possesses wave scattering properties and demonstrates a 15°F improved passive thermal regulation under IR exposure.
 
 **Renewable Fiber & Composite Lab, University of Texas at Austin**  
 *Development of Bio-Based Fibrous Composites for Smart Fabric Sensing Applications*<span style="float:right; font-weight:normal"><em>Apr 2019 – Aug 2019</em></span>  
