@@ -15,7 +15,7 @@ Education
 *Master of Science in Mechanical Engineering*<span style="float:right; font-weight:normal"><em>May 2025</em></span>  
 **University of Texas at Austin**  
 *Bachelor of Science in Mechanical Engineering*<span style="float:right; font-weight:normal"><em>May 2020</em></span>  
-*Minor: Computer Science*
+*Certificate: Computer Science*
 
 Publications
 ======
