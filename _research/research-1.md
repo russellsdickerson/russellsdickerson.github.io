@@ -1,9 +1,9 @@
 ---
-title: "Fabric-Based Pouch Grid Actuators (In Progress)"
+title: "FabricLEGO: An Actuated Fabric Building Platform for Constructing Scalable and Versatile Soft Robots (In Progress)"
 excerpt: "April 2025 - Present"
 collection: research
 header:
-  teaser: "FREE.png"
+  teaser: "FREE.jpg"
 ---
 
 ## Overview
