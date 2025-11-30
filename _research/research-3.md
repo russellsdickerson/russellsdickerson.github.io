@@ -1,5 +1,5 @@
 ---
-title: "Bio-Inspired Passive Thermal Regulation in Soft Actuators"
+title: "A Bio-Inspired Soft Robotic Actuator for Passive Infrared Thermal Regulation"
 excerpt: "Jan 2024 – May 2024"
 collection: research
 header:
