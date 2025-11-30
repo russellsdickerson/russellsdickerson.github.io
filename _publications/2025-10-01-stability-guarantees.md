@@ -1,5 +1,5 @@
 ---
-title: "Lyapunov-Based Stability Guarantees for Variable Impedance Control of Powered Prosthetic Legs"
+title: "Lyapunov-Based Stability Guarantees for Variable Impedance Control of Powered Prosthetic Legs (In Progress)"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-10-20-paper-title-number-2

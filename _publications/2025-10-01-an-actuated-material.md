@@ -1,5 +1,5 @@
 ---
-title: "FabricLEGO: An Actuated Fabric Building Platform for Constructing Scalable and Versatile Soft Robots"
+title: "FabricLEGO: An Actuated Fabric Building Platform for Constructing Scalable and Versatile Soft Robots (In Progress)"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-10-20-paper-title-number-1
