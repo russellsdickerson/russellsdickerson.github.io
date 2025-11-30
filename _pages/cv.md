@@ -12,24 +12,29 @@ redirect_from:
 Education
 ======
 **University of Michigan, Ann Arbor, MI**  
-*M.S. Mechanical Engineering*<span style="float:right; font-weight:normal"><em>May 2025</em></span>  
+*Master of Science in Mechanical Engineering*<span style="float:right; font-weight:normal"><em>May 2025</em></span>  
 **University of Texas at Austin**  
-*B.S. Mechanical Engineering*<span style="float:right; font-weight:normal"><em>May 2020</em></span>  
+*Bachelor of Science in Mechanical Engineering*<span style="float:right; font-weight:normal"><em>May 2020</em></span>  
 *Minor: Computer Science*
+
+Publications
+======
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
 
 Research Experience
 ======
 **FREE Lab, University of Michigan**   
-*Graduate Student Researcher*<span style="float:right; font-weight:normal"><em>Apr 2025 – Present</em></span>  
+*FabricLEGO: An Actuated Fabric Building Platform for Constructing Scalable and Versatile Soft Robots*<span style="float:right; font-weight:normal"><em>Apr 2025 – Present</em></span>  
 *Advisor: Prof. Daniel Bruder*
-  - Designed, modeled, and fabricated modular, grid-based, soft robotic actuators, investigating their mechanical behavior, manufacturability, scalability, and functionality.
+  * Designed, modeled, and fabricated a grid-based soft robotic actuator platform, enabling scalable, multi-mode pneumatic actuation and facilitating accessibility for subsequent research in soft robotics
 
 **Locomotor Control Systems Lab, University of Michigan**  
-*Graduate Student Researcher*<span style="float:right; font-weight:normal"><em>Apr 2025 – Present</em></span>  
+*Lyapunov-Based Stability Guarantees for Variable Impedance Control of Powered Prosthetic Legs*<span style="float:right; font-weight:normal"><em>Apr 2025 – Present</em></span>  
 *Advisor: Prof. Robert Gregg*  
   * Investigated stability of time-varying impedance control for robotic prostheses using Lyapunov-based analysis.
-  * Modeled a 3-DOF powered prosthetic limb system and provided theoretical safety guarantees, supporting the
- development of robust controllers for wearable robotics in dynamic environments.
+  * Modeled a multi-DOF powered prosthetic limb system and provided theoretical safety guarantees, supporting the development of robust controllers for wearable robotics.
 
 **Becton Dickinson**  
 *Product Development Engineer I / R&D Intern*<span style="float:right; font-weight:normal"><em>Jun 2024 – Present</em></span>
@@ -39,25 +44,19 @@ Research Experience
   * Authored technical reports evaluating product feasibility and stability, incorporating statistical analysis of mechanical test data to identify trends and ensure compliance with specifications.
 
 **EMBiR Lab, University of Michigan**  
-*Graduate Student Researcher*<span style="float:right; font-weight:normal"><em>Jan 2024 – May 2024</em></span>  
+*A Bio-Inspired Soft Robotic Actuator for Passive Infrared Thermal Regulation*<span style="float:right; font-weight:normal"><em>Jan 2024 – May 2024</em></span>  
 *Advisor: Prof. Talia Y. Moore*  
-  * Designed and fabricated a Saharan silver ant–inspired, soft robotic actuator that possesses wave scattering properties and demonstrates a 15°F improved passive thermal regulation compared to the control under IR exposure.
+  * esigned and fabricated a Saharan silver ant–inspired, soft robotic actuator that possesses wave scattering properties and demonstrates a 15°F improved passive thermal regulation under IR exposure.
 
 **Renewable Fiber & Composite Lab, University of Texas at Austin**  
-*Undergraduate Research Assistant*<span style="float:right; font-weight:normal"><em>Apr 2019 – Aug 2019</em></span>  
+*Development of Bio-Based Fibrous Composites for Smart Fabric Sensing Applications*<span style="float:right; font-weight:normal"><em>Apr 2019 – Aug 2019</em></span>  
 *Advisor: Prof. Jonathan Y. Chen*  
   * Manufactured bio-based fiber and fibrous composite materials that supported research into fabric sensing applications.
-
-Publications
-======
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
 
 Industry Experience
 ======
 **TSMC**  
-*Intelligent Manufacturing Engineer*<span style="float:right; font-weight:normal"><em>October 2025</em></span>
+*Intelligent Manufacturing Engineer*<span style="float:right; font-weight:normal"><em>October 2025 – Present</em></span>
 
 **WTA, Inc.**  
 *Project Engineer*<span style="float:right; font-weight:normal"><em>Apr 2021 – Jul 2023</em></span>  
